@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 3,
+ "section": 2,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "She mixes flour and water.",
+   "ja": "彼女は、小麦粉と水を、混ぜます。",
+   "note": "mix = 混ぜる。flour = 小麦粉。"
+  },
+  {
+   "text": "The dough is soft.",
+   "ja": "生地は、やわらかいです。",
+   "note": "dough = パンの生地。soft = やわらかい。"
+  },
+  {
+   "text": "She makes twenty round rolls.",
+   "ja": "彼女は、丸いロールパンを、20個、作ります。",
+   "note": "roll = 小さな丸いパン。round = 丸い。"
+  },
+  {
+   "text": "The oven is very hot.",
+   "ja": "オーブンは、とても熱いです。",
+   "note": "oven = オーブン。"
+  },
+  {
+   "text": "The shop smells so good.",
+   "ja": "お店は、とても、いいにおいがします。",
+   "note": "smell good = いいにおいがする。"
+  }
+ ]
+}

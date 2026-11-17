@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 3,
+ "section": 2,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "While the dough was resting, she cleaned the table and the floor.",
+   "ja": "生地を休ませている間に、彼女は、テーブルと床を、掃除しました。",
+   "note": "rest = 休ませる。floor = 床。"
+  },
+  {
+   "text": "Then she shaped twenty round rolls and ten long loaves.",
+   "ja": "それから、彼女は、丸いロールパンを20個と、長いパンを10本、形づくりました。",
+   "note": "shape = 形を作る。"
+  },
+  {
+   "text": "She put them in the hot oven and set a timer for thirty minutes.",
+   "ja": "彼女は、それらを、熱いオーブンに入れて、30分に、タイマーをかけました。",
+   "note": "set a timer = タイマーをかける。"
+  },
+  {
+   "text": "Soon the whole shop smelled so wonderful that she felt hungry.",
+   "ja": "すぐに、お店じゅうが、とてもすばらしいにおいになって、彼女は、おなかがすきました。",
+   "note": "so ~ that ... = とても~なので...。"
+  },
+  {
+   "text": "This was the best part of the day for her.",
+   "ja": "これは、彼女にとって、一日の中で、いちばん良い時間でした。",
+   "note": "the best part = いちばん良い所。"
+  }
+ ]
+}

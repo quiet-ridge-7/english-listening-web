@@ -1,0 +1,38 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 14,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "The men shouted angrily at them, telling them to be gone.",
+   "ja": "男たちは、怒って、鳥たちに、あっちへ行け、と、叫びました。",
+   "note": "be gone = いなくなる(あっちへ行け)。"
+  },
+  {
+   "text": "The sailor and the reporter kept rowing with the thin wooden oars.",
+   "ja": "船員と記者は、細い木のオールで、こぎ続けました。",
+   "note": "kept rowing = こぎ続けた。"
+  },
+  {
+   "text": "Sometimes they sat together, each using an oar.",
+   "ja": "ときには、二人が、並んで座って、それぞれ、オールを1本ずつ、使いました。",
+   "note": "each using an oar = それぞれ、オールを1本使って。"
+  },
+  {
+   "text": "Sometimes one would pull on both oars while the other rested.",
+   "ja": "ときには、一人が、両方のオールを引いて、もう一人が、休みました。",
+   "note": "pull on both oars = 両方のオールを引く。while = ~の間に。"
+  },
+  {
+   "text": "Brown pieces of seaweed appeared from time to time.",
+   "ja": "ときどき、茶色の海藻のかたまりが、現れました。",
+   "note": "from time to time = ときどき。"
+  },
+  {
+   "text": "They were like islands, bits of earth that did not move.",
+   "ja": "それは、島のようで、動かない、土のかたまりのようでした。",
+   "note": "bits of earth = 土のかたまり。did not move = 動かない。"
+  }
+ ]
+}

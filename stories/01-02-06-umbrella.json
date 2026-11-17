@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 2,
+ "section": 6,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "A sign says Blue Door Cafe.",
+   "ja": "看板には、「ブルー・ドア・カフェ」と、あります。",
+   "note": "sign = 看板。"
+  },
+  {
+   "text": "She goes inside.",
+   "ja": "彼女は、中に入ります。",
+   "note": "inside = 中へ。"
+  },
+  {
+   "text": "A man makes coffee there.",
+   "ja": "そこで、男の人が、コーヒーを、いれています。",
+   "note": "make coffee = コーヒーをいれる。"
+  },
+  {
+   "text": "“Do you know Leo?” she asks.",
+   "ja": "「レオを、知っていますか?」と、彼女は、聞きます。",
+   "note": "Do you know ~? = ~を知っていますか。"
+  },
+  {
+   "text": "The man smiles and nods.",
+   "ja": "男の人は、にっこりして、うなずきます。",
+   "note": "nod = うなずく。"
+  }
+ ]
+}

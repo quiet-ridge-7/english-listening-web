@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 5,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "But there was no land to be seen.",
+   "ja": "しかし、陸は、まったく見えませんでした。",
+   "note": "to be seen = 見える(受け身)。there was no land to be seen = 陸は、見えなかった。"
+  },
+  {
+   "text": "All the men saw were violent waves which rose and came fiercely down on them.",
+   "ja": "男たちが目にしたのは、高く上がって、猛烈に、自分たちに落ちかかる、激しい波だけでした。",
+   "note": "violent = 激しい。fiercely = 猛烈に。come down on ~ = ~に落ちかかる。"
+  },
+  {
+   "text": "The men sat in the boat, wondering if there was any hope for them.",
+   "ja": "男たちは、ボートに座って、自分たちに、何か望みがあるのだろうか、と考えていました。",
+   "note": "wonder if ~ = ~かどうか考える。hope = 希望。"
+  },
+  {
+   "text": "The ship's cook sat in the bottom of the boat.",
+   "ja": "船の料理人は、ボートの底に、座っていました。",
+   "note": "bottom = 底。"
+  },
+  {
+   "text": "He kept looking at the fifteen centimeters which separated him from the ocean.",
+   "ja": "彼は、自分と海を隔てる、15センチほどの高さを、ずっと見つめていました。",
+   "note": "fifteen centimeters = 15センチ。separate A from B = AをBから隔てる。"
+  }
+ ]
+}

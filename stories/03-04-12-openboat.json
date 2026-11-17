@@ -1,0 +1,38 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 12,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "This made the others stop talking.",
+   "ja": "これを聞いて、ほかの人たちは、話すのをやめました。",
+   "note": "made the others stop ~ing = ほかの人たちに、~するのをやめさせた。"
+  },
+  {
+   "text": "To express any hope at this time they felt to be childish and stupid.",
+   "ja": "この時に、何か希望を口にするのは、子どもっぽくて、愚かだと、彼らは、感じていたのです。",
+   "note": "express any hope = 希望を口にする。childish = 子どもっぽい。"
+  },
+  {
+   "text": "But they also did not want to suggest there was no hope.",
+   "ja": "しかし、希望が、まったくないとも、言いたくありませんでした。",
+   "note": "suggest = ほのめかす。"
+  },
+  {
+   "text": "So they were silent.",
+   "ja": "それで、彼らは、黙っていました。",
+   "note": "silent = 黙った。"
+  },
+  {
+   "text": "“Oh, well,” said the captain, “We'll get ashore all right.”",
+   "ja": "「まあ、いいさ」と、船長は、言いました。「きっと、岸に着けるよ」",
+   "note": "Oh, well = まあね。get ashore = 岸に着く。all right = 大丈夫。"
+  },
+  {
+   "text": "But there was something in his voice that made them think, as the sailor said: “Yes, if this wind holds!”",
+   "ja": "しかし、彼の声には、彼らに考えさせる、何かがありました。船員は、こう言いました。「そうですね、この風が、続けば!」",
+   "note": "there was something in his voice that made them think = 彼の声には、彼らに考えさせる何かがあった。if this wind holds = この風が続けば。"
+  }
+ ]
+}

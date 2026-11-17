@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 2,
+ "section": 5,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "Because the bus never came, Mina decided to walk to the cafe.",
+   "ja": "バスが、一向に来なかったので、ミナは、そのカフェまで、歩くことに、決めました。",
+   "note": "Because = ~なので。never = 一度も~ない。"
+  },
+  {
+   "text": "She opened the red umbrella, and the rain stopped touching her at all.",
+   "ja": "彼女は、赤い傘を開きました。すると、雨は、まったく、彼女にあたらなくなりました。",
+   "note": "stop ~ing = ~するのをやめる。"
+  },
+  {
+   "text": "After walking for about ten minutes, she saw a bright blue door.",
+   "ja": "10分ほど歩いた後、彼女は、明るい青いドアを、見つけました。",
+   "note": "After ~ing = ~した後で。bright = 明るい。"
+  },
+  {
+   "text": "A wooden sign above the door said Blue Door Cafe.",
+   "ja": "ドアの上の木の看板には、「ブルー・ドア・カフェ」と、ありました。",
+   "note": "wooden = 木でできた。"
+  },
+  {
+   "text": "She closed the umbrella and stepped inside, where the air smelled like coffee.",
+   "ja": "彼女は、傘を閉じて、中に入りました。そこでは、空気が、コーヒーのにおいがしました。",
+   "note": "where ~ = (その場所では)~。"
+  }
+ ]
+}

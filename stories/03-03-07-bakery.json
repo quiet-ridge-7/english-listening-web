@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 3,
+ "section": 7,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "Mr. Brown, who had not left the shop, walked slowly to the oven.",
+   "ja": "お店を出ていなかった、ブラウンさんは、ゆっくり、オーブンへ歩いて行きました。",
+   "note": "who ~ = (その人は)~。had not left = 出て行っていなかった。"
+  },
+  {
+   "text": "He looked inside and said in a kind voice, “Do not worry.”",
+   "ja": "彼は、中をのぞいて、やさしい声で、「心配しなくていいよ」と、言いました。",
+   "note": "look inside = 中をのぞく。"
+  },
+  {
+   "text": "“Every baker burns bread at least once, and I burned hundreds,” he said.",
+   "ja": "「パン職人なら、だれでも、少なくとも一度は、パンを焦がすものだ。私は、何百本も、焦がしたよ」と、彼は言いました。",
+   "note": "hundreds = 何百も。"
+  },
+  {
+   "text": "Then he showed her a simple trick that had saved him many times.",
+   "ja": "それから、彼は、自分を何度も救ってくれた、かんたんなコツを、彼女に、教えました。",
+   "note": "that had saved ~ = ~を助けてきた(コツ)。"
+  },
+  {
+   "text": "“If you always use two timers, you will never forget again,” he said.",
+   "ja": "「いつも、タイマーを、2つ使えば、二度と、忘れることは、ないよ」と、彼は言いました。",
+   "note": "If ~ = もし~なら。never forget = 決して忘れない。"
+  }
+ ]
+}

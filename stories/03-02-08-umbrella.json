@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 2,
+ "section": 8,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "His father made her a cup of hot coffee to say thank you.",
+   "ja": "彼の父親は、お礼として、彼女に、熱いコーヒーを、1杯、いれました。",
+   "note": "to say ~ = ~を言うために。"
+  },
+  {
+   "text": "She drank it slowly while the rain outside became softer and softer.",
+   "ja": "彼女は、外の雨が、だんだん弱くなる中で、それを、ゆっくり飲みました。",
+   "note": "softer and softer = だんだん弱く。"
+  },
+  {
+   "text": "When she left, the boy waved goodbye from the blue door.",
+   "ja": "彼女が出る時、男の子は、青いドアから、手を振って、さよならを、しました。",
+   "note": "wave goodbye = 手を振ってさよならする。"
+  },
+  {
+   "text": "Thanks to the red umbrella, she arrived at her meeting five minutes early.",
+   "ja": "赤い傘のおかげで、彼女は、会議に、5分早く、着きました。",
+   "note": "Thanks to ~ = ~のおかげで。early = 早く。"
+  },
+  {
+   "text": "That day, Mina learned that helping someone can also help yourself.",
+   "ja": "その日、ミナは、人を助けると、自分の助けにも、なるのだと、学びました。",
+   "note": "learn that ~ = ~だと学ぶ。can also help = 自分の助けにもなる。"
+  }
+ ]
+}

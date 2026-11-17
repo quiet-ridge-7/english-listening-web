@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 2,
+ "section": 7,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "The man called his son, and a small boy ran out from the kitchen.",
+   "ja": "男の人が、息子を呼ぶと、小さな男の子が、台所から、走って出てきました。",
+   "note": "kitchen = 台所。"
+  },
+  {
+   "text": "“That is my umbrella!” the boy shouted, and his eyes became very bright.",
+   "ja": "「それは、ぼくの傘だ!」と、男の子は、叫び、その目は、とても輝きました。",
+   "note": "became は、become(~になる)の過去形。"
+  },
+  {
+   "text": "“I lost it at the bus stop this morning, and I was so sad.”",
+   "ja": "「今朝、バス停で、なくしちゃって、とても悲しかったんだ」",
+   "note": "so sad = とても悲しい。"
+  },
+  {
+   "text": "Mina smiled and handed it back to him with both hands.",
+   "ja": "ミナは、にっこりして、傘を、両手で、彼に、手渡して返しました。",
+   "note": "hand back = 手渡して返す。both hands = 両手。"
+  },
+  {
+   "text": "Leo held it tightly and thanked her three times in a row.",
+   "ja": "レオは、それを、しっかり持って、彼女に、3回続けて、お礼を言いました。",
+   "note": "three times in a row = 3回続けて。"
+  }
+ ]
+}

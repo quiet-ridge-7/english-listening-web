@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 1,
+ "section": 3,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "The trail began in a quiet forest, where the trees were tall.",
+   "ja": "登山道は、静かな森の中から、始まりました。そこでは、木が、高く伸びていました。",
+   "note": "where ~ = そこでは~(場所を説明する言葉)。"
+  },
+  {
+   "text": "Ken walked slowly because the hill was steeper than he had expected.",
+   "ja": "坂は、思っていたより急だったので、ケンは、ゆっくり歩きました。",
+   "note": "steeper than ~ = ~より急な。had expected = 予想していた(過去より前)。"
+  },
+  {
+   "text": "Mia, who had climbed many mountains, walked in front and set the pace.",
+   "ja": "たくさんの山に登ったことのあるミアは、前を歩いて、ペースを作りました。",
+   "note": "who had climbed ~ = ~に登ったことのある(Mia の説明)。"
+  },
+  {
+   "text": "After an hour, Ken's legs began to feel heavy and tired.",
+   "ja": "1時間後、ケンの足は、重く、疲れてきました。",
+   "note": "heavy = 重い。began to ~ = ~し始めた。"
+  },
+  {
+   "text": "He stopped to drink water and wipe the sweat from his face.",
+   "ja": "彼は、立ち止まって、水を飲み、顔の汗をふきました。",
+   "note": "stopped to ~ = ~するために止まった。sweat = 汗。"
+  }
+ ]
+}

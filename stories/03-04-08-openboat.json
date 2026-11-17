@@ -1,0 +1,28 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 8,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "Sitting in the boat was like sitting on a wild horse.",
+   "ja": "そのボートに乗っているのは、暴れ馬に乗っているようでした。",
+   "note": "was like ~ing = ~するようだった。wild horse = 暴れ馬。"
+  },
+  {
+   "text": "As each wave came, the boat rose and fell, like a horse starting toward a fence too high to jump.",
+   "ja": "波が来るたびに、ボートは、上がったり、下がったりして、まるで、高すぎて跳べない柵に向かう、馬のようでした。",
+   "note": "高すぎて跳べない柵に向かう馬のよう、という例え。"
+  },
+  {
+   "text": "The problem was that after successfully floating over one wave you find that there is another one behind it just as strong and ready to flood your boat.",
+   "ja": "問題は、1つの波を、うまく乗り越えても、その後ろに、同じくらい強くて、ボートに水をあふれさせようとする、別の波が、あることでした。",
+   "note": "The problem was that ~ = 問題は、~ということだった。flood = 水であふれさせる。"
+  },
+  {
+   "text": "As each wall of water came in, it hid everything else that the men could see.",
+   "ja": "水の壁が、押し寄せるたびに、男たちに見えるものは、ほかに、何も見えなくなりました。",
+   "note": "hid は、hide(隠す)の過去形。wall of water = 水の壁(波)。"
+  }
+ ]
+}

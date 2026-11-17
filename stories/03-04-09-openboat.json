@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 9,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "The waves came in silence; only their white tops made threatening noises.",
+   "ja": "波は、静かに、やって来ました。ただ、その白い波頭だけが、おどすような音を、立てていました。",
+   "note": "in silence = 静かに。threatening = おどすような。"
+  },
+  {
+   "text": "In the weak light, the faces of the men must have looked gray.",
+   "ja": "弱い光の中で、男たちの顔は、灰色に見えたにちがいありません。",
+   "note": "must have looked ~ = ~に見えたにちがいない。gray = 灰色。"
+  },
+  {
+   "text": "Their eyes must have shone in strange ways as they looked out at the sea.",
+   "ja": "彼らが海を見つめる目は、不思議な光り方を、していたにちがいありません。",
+   "note": "shone は、shine(光る)の過去形。strange = 変な。"
+  },
+  {
+   "text": "The sun rose slowly into the sky.",
+   "ja": "太陽が、ゆっくり、空に昇りました。",
+   "note": "rose slowly = ゆっくり昇った。"
+  },
+  {
+   "text": "The men knew it was the middle of the day because the color of the sea changed from slate gray to emerald green, with gold lights.",
+   "ja": "海の色が、石板のような灰色から、金色の光をまじえた、エメラルド色に変わったので、男たちは、昼になったと、わかりました。",
+   "note": "slate gray = 石板のような灰色。emerald green = エメラルド色。"
+  }
+ ]
+}

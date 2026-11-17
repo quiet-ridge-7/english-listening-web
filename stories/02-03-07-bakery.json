@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 3,
+ "section": 7,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "Mr. Brown was still standing at the counter.",
+   "ja": "ブラウンさんは、まだ、カウンターのそばに、立っていました。",
+   "note": "standing = 立っていた。"
+  },
+  {
+   "text": "He walked slowly to the oven and looked inside.",
+   "ja": "彼は、ゆっくり、オーブンへ歩いて、中を、のぞきました。",
+   "note": "inside = 中を。"
+  },
+  {
+   "text": "“Do not worry,” he said in a kind voice.",
+   "ja": "「心配しなくていいよ」と、彼は、やさしい声で、言いました。",
+   "note": "in a kind voice = やさしい声で。"
+  },
+  {
+   "text": "“Every baker burns bread at least once.”",
+   "ja": "「パン職人なら、だれでも、少なくとも一度は、パンを焦がすものだ」",
+   "note": "at least = 少なくとも。"
+  },
+  {
+   "text": "Then he showed her a simple trick.",
+   "ja": "それから、彼は、彼女に、かんたんなコツを、教えました。",
+   "note": "simple = かんたんな。"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 1,
+ "section": 6,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "She takes out a small map.",
+   "ja": "彼女は、小さな地図を、取り出します。",
+   "note": "take out = 取り出す。map = 地図。"
+  },
+  {
+   "text": "“We must go left,” she says.",
+   "ja": "「左へ行かなくちゃ」と、彼女は言います。",
+   "note": "must = ~しなければならない。left = 左へ。"
+  },
+  {
+   "text": "They walk very carefully.",
+   "ja": "二人は、とても慎重に、歩きます。",
+   "note": "carefully = 注意深く。"
+  },
+  {
+   "text": "Ken holds Mia's bag.",
+   "ja": "ケンは、ミアのかばんを、つかみます。",
+   "note": "hold = つかむ。Mia's = ミアの。"
+  },
+  {
+   "text": "At last, they see a sign.",
+   "ja": "ついに、二人は、看板を見つけます。",
+   "note": "at last = やっと。sign = 標識。"
+  }
+ ]
+}

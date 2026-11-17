@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 1,
+ "section": 2,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "His friend Mia calls him.",
+   "ja": "友だちのミアが、彼に電話をかけます。",
+   "note": "call = 電話をかける。him = 彼に。"
+  },
+  {
+   "text": "“Are you ready?” she asks.",
+   "ja": "「準備はできた?」と、彼女は聞きます。",
+   "note": "ready = 準備ができた。she asks = 彼女が尋ねる(台詞の後ろの言い方)。"
+  },
+  {
+   "text": "“Yes, I am,” says Ken.",
+   "ja": "「うん、できたよ」と、ケンは言います。",
+   "note": "Are you ~? には、Yes, I am. で答える。says Ken = ケンが言う。"
+  },
+  {
+   "text": "They go to the bus stop.",
+   "ja": "二人は、バス停へ行きます。",
+   "note": "bus stop = バス停。go to ~ = ~へ行く。"
+  },
+  {
+   "text": "Today, they will climb a mountain.",
+   "ja": "今日、二人は、山に登ります。",
+   "note": "will = これからの予定。climb = 登る(b は、発音しない)。"
+  }
+ ]
+}

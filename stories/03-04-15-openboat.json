@@ -1,0 +1,43 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 15,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "They showed the men in the boat that it was slowly making progress toward land.",
+   "ja": "それは、ボートの男たちに、ボートが、ゆっくり、陸へ向かって、進んでいることを、教えてくれました。",
+   "note": "make progress = 進む。toward ~ = ~に向かって。"
+  },
+  {
+   "text": "Hours passed.",
+   "ja": "何時間も、過ぎました。",
+   "note": "Hours passed = 何時間も過ぎた。"
+  },
+  {
+   "text": "Then, as the boat was carried to the top of a great wave, the captain looked across the water.",
+   "ja": "そして、ボートが、大きな波の頂上へ、運ばれた時、船長は、水面の向こうを、見渡しました。",
+   "note": "carried to ~ = ~へ運ばれた。looked across the water = 水面の向こうを見た。"
+  },
+  {
+   "text": "He said that he saw the lighthouse at Mosquito Inlet.",
+   "ja": "彼は、モスキート入り江の灯台が、見えると、言いました。",
+   "note": "lighthouse = 灯台。Mosquito Inlet = 場所の名前(入り江)。"
+  },
+  {
+   "text": "The cook also said he saw it.",
+   "ja": "料理人も、それが見えると、言いました。",
+   "note": "also = ~も。"
+  },
+  {
+   "text": "The reporter searched the western sky.",
+   "ja": "記者は、西の空を、探しました。",
+   "note": "searched = 探した。western sky = 西の空。"
+  },
+  {
+   "text": "“See it?” said the captain.",
+   "ja": "「見えるか?」と、船長は、言いました。",
+   "note": "See it? = 見えるか。"
+  }
+ ]
+}

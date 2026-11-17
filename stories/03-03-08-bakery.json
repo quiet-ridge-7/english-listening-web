@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 3,
+ "section": 8,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "Sara laughed through her tears, and she felt much better.",
+   "ja": "サラは、涙を浮かべながら、笑って、ずっと、気分が良くなりました。",
+   "note": "laugh through tears = 泣き笑いする。"
+  },
+  {
+   "text": "The customers did not mind because the long loaves were still fresh and warm.",
+   "ja": "長いパンは、まだ、できたてで、あたたかかったので、お客さんたちは、気にしませんでした。",
+   "note": "not mind = 気にしない。"
+  },
+  {
+   "text": "Soon the shop was full of happy voices, and the line moved quickly.",
+   "ja": "すぐに、お店は、楽しそうな声で、いっぱいになり、列は、早く進みました。",
+   "note": "move = 進む。"
+  },
+  {
+   "text": "That evening, Sara wrote a new rule on the wall: always use two timers.",
+   "ja": "その晩、サラは、壁に、新しいきまりを、書きました。「いつも、タイマーを、2つ、使うこと」。",
+   "note": "コロン(:)の後ろが、きまりの中身。"
+  },
+  {
+   "text": "She learned that a mistake can become a lesson when someone is kind.",
+   "ja": "彼女は、だれかが、やさしくしてくれると、失敗は、教訓に、なるのだと、学びました。",
+   "note": "lesson = 教訓。when ~ = ~の時。"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 1,
+ "section": 4,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "Ken drinks some water.",
+   "ja": "ケンは、水を少し飲みます。",
+   "note": "some = いくらかの。"
+  },
+  {
+   "text": "“Let's rest here,” says Mia.",
+   "ja": "「ここで休もう」と、ミアは言います。",
+   "note": "Let's ~ = ~しましょう。rest = 休む。"
+  },
+  {
+   "text": "They sit on a big rock.",
+   "ja": "二人は、大きな岩に、座ります。",
+   "note": "sit on ~ = ~に座る。rock = 岩。"
+  },
+  {
+   "text": "A small bird sings nearby.",
+   "ja": "近くで、小さな鳥が、鳴いています。",
+   "note": "nearby = 近くで。sings = 歌う、さえずる。"
+  },
+  {
+   "text": "Ken smiles. He feels good.",
+   "ja": "ケンは、にっこりします。いい気分です。",
+   "note": "feel good = 気分がよい。"
+  }
+ ]
+}

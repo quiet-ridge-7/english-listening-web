@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 3,
+ "section": 4,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "He smelled the bag and closed his eyes.",
+   "ja": "彼は、袋のにおいをかいで、目を閉じました。",
+   "note": "closed his eyes = 目を閉じた。"
+  },
+  {
+   "text": "“This smells just like my old bakery,” he said.",
+   "ja": "「これは、昔の私のパン屋と、そっくりのにおいだ」と、彼は言いました。",
+   "note": "just like ~ = ~とそっくり。"
+  },
+  {
+   "text": "He paid and counted his coins slowly.",
+   "ja": "彼は、お金を払って、硬貨を、ゆっくり数えました。",
+   "note": "count = 数える。coin = 硬貨。"
+  },
+  {
+   "text": "“I was a baker for forty years,” he told her.",
+   "ja": "「私は、40年間、パン職人だったんだよ」と、彼は、彼女に言いました。",
+   "note": "for forty years = 40年間。told は、tell の過去形。"
+  },
+  {
+   "text": "Sara listened to his story with great interest.",
+   "ja": "サラは、彼の話を、とても興味深く、聞きました。",
+   "note": "with great interest = 強い興味を持って。"
+  }
+ ]
+}

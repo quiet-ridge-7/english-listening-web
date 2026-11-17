@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 1,
+ "section": 7,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "The sign said that the top was only one kilometer away, so Ken felt new energy.",
+   "ja": "看板には、頂上まで、あと1キロ、と書いてあったので、ケンは、新しい力が、わいてきました。",
+   "note": "so = だから。結果を表す言葉。"
+  },
+  {
+   "text": "He walked faster than before, and the fog slowly began to lift.",
+   "ja": "彼は、前より速く歩き、霧は、ゆっくりと、晴れ始めました。",
+   "note": "than before = 前より。lift = (霧が)晴れていく。"
+  },
+  {
+   "text": "A bright blue sky appeared above them, as if the mountain was welcoming them.",
+   "ja": "明るい青空が、二人の上に、現れました。まるで、山が、二人を歓迎しているようでした。",
+   "note": "as if ~ = まるで~かのように。welcome = 歓迎する。"
+  },
+  {
+   "text": "They climbed the last steep hill without stopping once.",
+   "ja": "二人は、一度も止まらずに、最後の急な坂を、登りました。",
+   "note": "without stopping once = 一度も止まらずに。"
+  },
+  {
+   "text": "When they finally reached the top, Ken could hardly believe it.",
+   "ja": "ついに、頂上に着いた時、ケンは、ほとんど信じられませんでした。",
+   "note": "reach = 着く。could hardly ~ = ほとんど~できなかった。"
+  }
+ ]
+}

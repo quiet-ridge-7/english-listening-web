@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 1,
+ "section": 5,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "Fog came slowly from the valley below.",
+   "ja": "霧が、下の谷から、ゆっくり、上がってきました。",
+   "note": "valley = 谷。below = 下の。"
+  },
+  {
+   "text": "Soon, Ken could not see more than ten meters.",
+   "ja": "すぐに、ケンは、10メートル先も、見えなくなりました。",
+   "note": "could not = ~できなかった。more than ~ = ~より多く。"
+  },
+  {
+   "text": "The trail looked different, and he felt worried.",
+   "ja": "登山道は、違って見えて、彼は、不安になりました。",
+   "note": "worried = 心配した。"
+  },
+  {
+   "text": "“Where did the path go?” he asked.",
+   "ja": "「道は、どこへ行ったの?」と、彼は聞きました。",
+   "note": "did ~ go? = ~はどこへ行った?(過去の疑問文)。"
+  },
+  {
+   "text": "Mia stopped and looked carefully around them.",
+   "ja": "ミアは、立ち止まって、まわりを、注意深く見ました。",
+   "note": "around them = 彼らのまわりを。"
+  }
+ ]
+}

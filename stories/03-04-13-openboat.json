@@ -1,0 +1,28 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 13,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "Seagulls flew near and far.",
+   "ja": "カモメが、あちこちを、飛んでいました。",
+   "note": "Seagulls = カモメ。near and far = あちこち。"
+  },
+  {
+   "text": "Sometimes the birds sat down on the sea in groups, near brown seaweed that rolled on the waves.",
+   "ja": "ときどき、鳥たちは、波の上を転がる、茶色の海藻の近くで、群れになって、海に降りました。",
+   "note": "in groups = 群れで。seaweed = 海藻。roll = 揺れ動く。"
+  },
+  {
+   "text": "The anger of the sea was no more to them than it was to a group of chickens a thousand miles away on land.",
+   "ja": "海の怒りは、彼らにとって、千マイルも離れた、陸の上の、ニワトリたちにとってと、同じくらい、どうでもいいことでした。",
+   "note": "no more to them than ~ = ~と同じで、彼らには、たいしたことではない。"
+  },
+  {
+   "text": "Often the seagulls came very close and stared at the men with black bead-like eyes.",
+   "ja": "カモメは、よく、とても近くまで来て、黒いビーズのような目で、男たちを、じっと見ました。",
+   "note": "stare at ~ = ~をじっと見る。bead-like = ビーズのような。"
+  }
+ ]
+}

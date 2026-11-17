@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 2,
+ "section": 1,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "Mina looked out the window early in the morning.",
+   "ja": "ミナは、朝早く、窓の外を、見ました。",
+   "note": "looked は、look の過去形。early = 早く。"
+  },
+  {
+   "text": "It was raining hard, and the sky was gray.",
+   "ja": "雨が激しく降っていて、空は、灰色でした。",
+   "note": "was raining = 降っていた。gray = 灰色。"
+  },
+  {
+   "text": "She had an important meeting at nine o'clock.",
+   "ja": "彼女は、9時に、大切な会議がありました。",
+   "note": "had は、have の過去形。important = 大切な。"
+  },
+  {
+   "text": "Her old umbrella was broken, so she could not use it.",
+   "ja": "古い傘は、壊れていたので、使えませんでした。",
+   "note": "so = だから。could not = ~できなかった。"
+  },
+  {
+   "text": "She put on her long coat and her boots.",
+   "ja": "彼女は、長いコートと、長靴を、身につけました。",
+   "note": "put は、現在形と過去形が、同じ形。boots = 長靴。"
+  }
+ ]
+}

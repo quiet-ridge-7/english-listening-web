@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 1,
+ "section": 4,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "“We should rest on that big rock,” Mia suggested.",
+   "ja": "「あの大きな岩で、休んだほうがいいね」と、ミアは、提案しました。",
+   "note": "suggest = 提案する。"
+  },
+  {
+   "text": "While they were sitting there, a small bird started to sing.",
+   "ja": "二人が、そこに座っている間に、小さな鳥が、鳴き始めました。",
+   "note": "While ~ = ~している間に。were sitting = 座っていた(進行形)。"
+  },
+  {
+   "text": "Ken ate half of his sandwich and felt much better.",
+   "ja": "ケンは、サンドイッチを半分食べて、ずっと元気になりました。",
+   "note": "much better = ずっと良く。"
+  },
+  {
+   "text": "He stood up again, although his legs still hurt a little.",
+   "ja": "足は、まだ少し痛みましたが、彼は、また、立ち上がりました。",
+   "note": "although = ~だけれども。hurt = 痛む。"
+  },
+  {
+   "text": "“If we keep this pace, we will reach the top by noon,” Mia said.",
+   "ja": "「このペースを保てば、お昼までに、頂上に着くよ」と、ミアは言いました。",
+   "note": "If ~, we will ... = もし~なら、...だろう。by noon = 正午までに。"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 20,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "“He'll notify the life-saving people.”",
+   "ja": "「彼が、救助隊に、知らせてくれるだろう」",
+   "note": "He'll は、He will。notify = 知らせる。life-saving people = 救助隊。"
+  },
+  {
+   "text": "Slowly and beautifully, the land rose from the sea.",
+   "ja": "ゆっくりと、美しく、陸が、海から、現れました。",
+   "note": "beautifully = 美しく。"
+  },
+  {
+   "text": "The wind came again.",
+   "ja": "また、風が、吹きました。",
+   "note": "The wind came again = また、風が吹いた。"
+  },
+  {
+   "text": "Finally, the men heard a new sound - the sound of waves breaking and crashing on the shore.",
+   "ja": "ついに、男たちは、新しい音を、聞きました。波が、岸に、砕けて、ぶつかる音です。",
+   "note": "breaking and crashing = 砕けて、ぶつかる。"
+  },
+  {
+   "text": "“We'll never be able to make the lighthouse now,” said the captain.",
+   "ja": "「もう、灯台までは、たどり着けないだろう」と、船長は、言いました。",
+   "note": "make the lighthouse = 灯台までたどり着く。"
+  },
+  {
+   "text": "“Swing her head a little more north, Billie.”",
+   "ja": "「船首を、もう少し、北へ向けろ、ビリー」",
+   "note": "Swing her head = 船首を向けろ。north = 北。"
+  },
+  {
+   "text": "“A little more north, sir,” said the sailor.",
+   "ja": "「もう少し、北ですね、船長」と、船員は、言いました。",
+   "note": "復唱(言われたことを、そのまま、繰り返す)。"
+  }
+ ]
+}

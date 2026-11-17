@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 3,
+ "section": 7,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "Mr. Brown is still there.",
+   "ja": "ブラウンさんは、まだ、そこに、います。",
+   "note": "still there = まだそこにいる。"
+  },
+  {
+   "text": "He walks to the oven.",
+   "ja": "彼は、オーブンへ、歩いて行きます。",
+   "note": "walk to ~ = ~へ歩く。"
+  },
+  {
+   "text": "“Do not worry,” he says.",
+   "ja": "「心配しなくていいよ」と、彼は言います。",
+   "note": "worry = 心配する。"
+  },
+  {
+   "text": "“Everyone burns bread once.”",
+   "ja": "「だれだって、一度は、パンを焦がすものだよ」",
+   "note": "once = 一度は。"
+  },
+  {
+   "text": "He shows her a trick.",
+   "ja": "彼は、彼女に、コツを、教えます。",
+   "note": "trick = コツ。show = 見せる、教える。"
+  }
+ ]
+}

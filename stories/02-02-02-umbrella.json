@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 2,
+ "section": 2,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "Then she left the house in a hurry.",
+   "ja": "それから、急いで、家を出ました。",
+   "note": "in a hurry = 急いで。left は、leave の過去形。"
+  },
+  {
+   "text": "The street was wet, and the cars drove slowly.",
+   "ja": "通りは、ぬれていて、車は、ゆっくり走っていました。",
+   "note": "drove は、drive の過去形。"
+  },
+  {
+   "text": "Water ran down the road like a small river.",
+   "ja": "水が、小さな川のように、道を流れていました。",
+   "note": "ran は、run の過去形。like ~ = ~のように。"
+  },
+  {
+   "text": "Mina walked quickly to the bus stop.",
+   "ja": "ミナは、急ぎ足で、バス停まで、歩きました。",
+   "note": "walked は、walk の過去形(ed)。"
+  },
+  {
+   "text": "Her hair was already getting wet.",
+   "ja": "彼女の髪は、もう、ぬれ始めていました。",
+   "note": "already = もう、すでに。"
+  }
+ ]
+}

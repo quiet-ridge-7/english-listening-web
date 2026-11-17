@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 3,
+ "section": 4,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "He held the bag close to his nose and closed his eyes.",
+   "ja": "彼は、袋を、鼻の近くに持って行き、目を閉じました。",
+   "note": "close to ~ = ~の近くに。"
+  },
+  {
+   "text": "“This smells just like the bakery I used to own,” he said.",
+   "ja": "「これは、私がやっていたパン屋と、そっくりのにおいだ」と、彼は言いました。",
+   "note": "used to ~ = 以前は~していた。own = 持っている。"
+  },
+  {
+   "text": "While he counted his coins slowly, he began to tell her a story.",
+   "ja": "硬貨を、ゆっくり数えながら、彼は、彼女に、話を、始めました。",
+   "note": "While = ~している間。"
+  },
+  {
+   "text": "He explained that he had been a baker for forty years.",
+   "ja": "彼は、自分が、40年間、パン職人だったことを、説明しました。",
+   "note": "had been = (それまで)~だった。"
+  },
+  {
+   "text": "Sara listened carefully because she hoped to learn something from him.",
+   "ja": "サラは、彼から、何かを学びたいと思って、注意深く、聞きました。",
+   "note": "hope to ~ = ~したいと願う。"
+  }
+ ]
+}

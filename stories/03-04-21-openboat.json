@@ -1,0 +1,48 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 21,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "The men watched the shore grow larger.",
+   "ja": "男たちは、岸が、大きくなるのを、見ていました。",
+   "note": "watch ~ grow larger = ~が大きくなるのを見る。"
+  },
+  {
+   "text": "They became hopeful.",
+   "ja": "彼らは、希望を、持ち始めました。",
+   "note": "hopeful = 希望を持った。"
+  },
+  {
+   "text": "In an hour, perhaps, they would be on land.",
+   "ja": "1時間もすれば、たぶん、陸に上がれるでしょう。",
+   "note": "In an hour = 1時間で。perhaps = たぶん。"
+  },
+  {
+   "text": "The men struggled to keep the boat from turning over.",
+   "ja": "男たちは、ボートが、ひっくり返らないように、必死でした。",
+   "note": "keep ~ from ~ing = ~が~しないようにする。turn over = ひっくり返る。"
+  },
+  {
+   "text": "They were used to balancing in the boat.",
+   "ja": "彼らは、ボートの上で、バランスを取るのに、慣れていました。",
+   "note": "be used to ~ing = ~するのに慣れている。balance = バランスを取る。"
+  },
+  {
+   "text": "Now they rode this wild horse of a boat like circus men.",
+   "ja": "今、彼らは、この暴れ馬のようなボートを、サーカスの曲芸師のように、乗りこなしていました。",
+   "note": "ride = 乗りこなす。circus men = サーカスの曲芸師。"
+  },
+  {
+   "text": "The water poured over them.",
+   "ja": "水が、彼らに、降りかかりました。",
+   "note": "poured over ~ = ~に降りかかった。"
+  },
+  {
+   "text": "The reporter thought he was now wet to the skin.",
+   "ja": "記者は、自分が、肌までぬれたと、思いました。",
+   "note": "wet to the skin = 肌までぬれた。"
+  }
+ ]
+}

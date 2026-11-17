@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 2,
+ "section": 4,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "It was big, and it was still dry.",
+   "ja": "それは、大きくて、まだ、乾いていました。",
+   "note": "still = まだ、それでも。"
+  },
+  {
+   "text": "A small tag was hanging from the handle.",
+   "ja": "持ち手に、小さな札が、ぶら下がっていました。",
+   "note": "was hanging = ぶら下がっていた。"
+  },
+  {
+   "text": "The tag said, “Leo, Blue Door Cafe.”",
+   "ja": "札には、「レオ、ブルー・ドア・カフェ」と、書いてありました。",
+   "note": "Blue Door Cafe = 店の名前。"
+  },
+  {
+   "text": "Mina wondered who Leo was and why he left it.",
+   "ja": "ミナは、レオとはだれか、そして、なぜ、これを置き忘れたのか、と思いました。",
+   "note": "who Leo was = レオが誰か。left は、leave(置き忘れる)の過去形。"
+  },
+  {
+   "text": "The bus still had not come.",
+   "ja": "バスは、まだ、来ていませんでした。",
+   "note": "had not come = まだ来ていなかった。"
+  }
+ ]
+}

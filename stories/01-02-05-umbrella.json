@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 2,
+ "section": 5,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "The bus does not come.",
+   "ja": "バスは、来ません。",
+   "note": "does not come = 来ない。"
+  },
+  {
+   "text": "Mina decides to walk.",
+   "ja": "ミナは、歩くことに、決めます。",
+   "note": "decide to ~ = ~することに決める。"
+  },
+  {
+   "text": "She opens the red umbrella.",
+   "ja": "彼女は、赤い傘を、開きます。",
+   "note": "open = 開く。"
+  },
+  {
+   "text": "The rain does not touch her.",
+   "ja": "雨は、彼女に、あたりません。",
+   "note": "touch = さわる、あたる。"
+  },
+  {
+   "text": "She sees a blue door.",
+   "ja": "彼女は、青いドアを、見つけます。",
+   "note": "see = 見える、見る。"
+  }
+ ]
+}

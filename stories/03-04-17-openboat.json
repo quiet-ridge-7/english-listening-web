@@ -1,0 +1,43 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 17,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "It would be difficult to describe the brotherhood of men that was here established on the sea.",
+   "ja": "ここで、海の上に生まれた、男たちの、兄弟のような仲間意識を、説明するのは、難しいでしょう。",
+   "note": "It would be difficult to ~ = ~するのは、難しいだろう。brotherhood = 兄弟のような仲間意識。established = 生まれた。"
+  },
+  {
+   "text": "Each man felt it warmed him.",
+   "ja": "どの男も、それが、自分を温めてくれる、と感じていました。",
+   "note": "warmed him = 彼を温めた(心を温めた)。"
+  },
+  {
+   "text": "They were a captain, a sailor, a cook and a reporter.",
+   "ja": "彼らは、船長と、船員と、料理人と、記者でした。",
+   "note": "4人の職業が、並んでいる。"
+  },
+  {
+   "text": "And they were friends.",
+   "ja": "そして、彼らは、友だちでした。",
+   "note": "friends = 友だち。"
+  },
+  {
+   "text": "The reporter knew even at the time that this friendship was the best experience of his life.",
+   "ja": "記者は、その時でさえ、この友情が、自分の人生で、いちばんの経験だと、わかっていました。",
+   "note": "even at the time = そのときでさえ。experience = 経験。"
+  },
+  {
+   "text": "All obeyed the captain.",
+   "ja": "みんなが、船長に、従いました。",
+   "note": "obey = 従う。"
+  },
+  {
+   "text": "He was a good leader.",
+   "ja": "彼は、良い指導者でした。",
+   "note": "leader = 指導者。"
+  }
+ ]
+}

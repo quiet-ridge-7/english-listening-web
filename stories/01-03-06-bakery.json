@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 3,
+ "section": 6,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "The rolls are still in the oven!",
+   "ja": "ロールパンが、まだ、オーブンの中に、あります!",
+   "note": "still = まだ。in the oven = オーブンの中に。"
+  },
+  {
+   "text": "She opens the hot oven door.",
+   "ja": "彼女は、熱いオーブンの扉を、開けます。",
+   "note": "オーブンの扉を開ける。hot = 熱い。"
+  },
+  {
+   "text": "The rolls are all black.",
+   "ja": "ロールパンは、すべて、真っ黒です。",
+   "note": "all = すべて。black = 黒い。"
+  },
+  {
+   "text": "She feels very sad.",
+   "ja": "彼女は、とても悲しい気持ちです。",
+   "note": "feel sad = 悲しく感じる。"
+  },
+  {
+   "text": "Twenty rolls are gone now.",
+   "ja": "20個のロールパンが、もう、ありません。",
+   "note": "gone = なくなった。"
+  }
+ ]
+}

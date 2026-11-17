@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 3,
+ "section": 6,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "Black smoke rolled out, and every single roll was burned.",
+   "ja": "黒いけむりが、あふれ出し、ロールパンは、ひとつ残らず、焦げていました。",
+   "note": "every single ~ = ~のひとつ残らず。burned = 焦げた。"
+  },
+  {
+   "text": "Several customers coughed, and others stepped back because of the strong smell.",
+   "ja": "何人かのお客さんは、せきをして、ほかの人たちは、強いにおいのせいで、あとずさりしました。",
+   "note": "several = いくつかの。cough = せきをする。"
+  },
+  {
+   "text": "Sara felt so embarrassed that she wanted to hide behind the counter.",
+   "ja": "サラは、とても恥ずかしくて、カウンターの後ろに、隠れたいと思いました。",
+   "note": "hide = 隠れる。"
+  },
+  {
+   "text": "She had worked for hours, but she had lost twenty rolls in one minute.",
+   "ja": "彼女は、何時間も、働いたのに、1分で、20個の、ロールパンを、だめにしてしまいました。",
+   "note": "for hours = 何時間も。"
+  },
+  {
+   "text": "Tears came to her eyes, although she tried hard not to cry.",
+   "ja": "彼女は、泣かないように、がんばりましたが、目に、涙が、浮かびました。",
+   "note": "tears = 涙。try hard = 一生懸命がんばる。"
+  }
+ ]
+}

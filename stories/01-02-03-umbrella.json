@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 2,
+ "section": 3,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "Mina sits on the bench.",
+   "ja": "ミナは、ベンチに、座ります。",
+   "note": "sit on ~ = ~に座る。bench = ベンチ。"
+  },
+  {
+   "text": "A red umbrella is next to her.",
+   "ja": "赤い傘が、彼女の、となりにあります。",
+   "note": "next to ~ = ~のとなりに。"
+  },
+  {
+   "text": "Nobody is here.",
+   "ja": "ここには、だれもいません。",
+   "note": "nobody = 誰も~ない。"
+  },
+  {
+   "text": "She looks around the stop.",
+   "ja": "彼女は、バス停のまわりを、見回します。",
+   "note": "look around = 見回す。"
+  },
+  {
+   "text": "She picks up the umbrella.",
+   "ja": "彼女は、傘を、拾い上げます。",
+   "note": "pick up = 拾い上げる。"
+  }
+ ]
+}

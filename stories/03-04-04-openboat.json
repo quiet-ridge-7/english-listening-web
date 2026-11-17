@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 4,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "Every man thought each wave would be his last.",
+   "ja": "男たちは、どの波も、自分にとって、最後の波に、なると思いました。",
+   "note": "each wave = どの波も。his last = 彼にとって最後の(波)。"
+  },
+  {
+   "text": "Surely, the boat would sink and he would drown.",
+   "ja": "きっと、ボートは沈み、自分は、おぼれるだろう、と。",
+   "note": "Surely = きっと。drown = おぼれる。"
+  },
+  {
+   "text": "The men thought that most adults would need a bathtub larger than the boat they were sailing.",
+   "ja": "男たちは、たいていのおとなが入る浴槽でさえ、いま乗っているボートより、大きいだろう、と思いました。",
+   "note": "larger than ~ = ~より大きい。ボートは、おとなが入る浴槽より、小さいという意味。"
+  },
+  {
+   "text": "The waves were huge, and each created a problem in guiding the direction of the boat.",
+   "ja": "波は、巨大で、どの波も、ボートの向きを操るのを、難しくしました。",
+   "note": "huge = 巨大な。each created a problem = どの波も問題を作った。direction = 方向。"
+  },
+  {
+   "text": "For two days, since the ship sank, the four men had been struggling to reach land.",
+   "ja": "船が沈んでから、2日間、4人は、陸にたどり着こうと、苦労し続けていました。",
+   "note": "since ~ = ~して以来。had been struggling = ずっと苦労していた。"
+  }
+ ]
+}

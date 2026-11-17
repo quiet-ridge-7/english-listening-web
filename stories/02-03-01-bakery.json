@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 3,
+ "section": 1,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "Sara woke up at four o'clock in the morning.",
+   "ja": "サラは、朝の4時に、起きました。",
+   "note": "woke up は、wake up の過去形。"
+  },
+  {
+   "text": "It was still dark, and the street was quiet.",
+   "ja": "まだ、暗くて、通りは、静かでした。",
+   "note": "quiet = 静か。"
+  },
+  {
+   "text": "She walked to her small bakery on the corner.",
+   "ja": "彼女は、角にある、小さなパン屋まで、歩きました。",
+   "note": "on the corner = 角に。"
+  },
+  {
+   "text": "First, she turned on the lights and the oven.",
+   "ja": "まず、彼女は、明かりと、オーブンを、つけました。",
+   "note": "First = 最初に。"
+  },
+  {
+   "text": "She washed her hands and put on a white apron.",
+   "ja": "彼女は、手を洗って、白いエプロンを、つけました。",
+   "note": "apron = エプロン。"
+  }
+ ]
+}

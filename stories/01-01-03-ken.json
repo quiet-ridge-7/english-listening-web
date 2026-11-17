@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 1,
+ "section": 3,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "The trail starts in a forest.",
+   "ja": "登山道は、森の中から、始まります。",
+   "note": "trail = 登山道。starts = 始まる(s がつく)。forest = 森。"
+  },
+  {
+   "text": "The trees are tall and green.",
+   "ja": "木は、高くて、緑色です。",
+   "note": "tall = 高い。green = 緑色の。"
+  },
+  {
+   "text": "Ken walks slowly up the hill.",
+   "ja": "ケンは、ゆっくり、坂を登ります。",
+   "note": "slowly = ゆっくり。up the hill = 坂を上って。"
+  },
+  {
+   "text": "Mia walks in front of him.",
+   "ja": "ミアは、彼の前を、歩きます。",
+   "note": "in front of ~ = ~の前に。"
+  },
+  {
+   "text": "The air is cool and fresh.",
+   "ja": "空気は、涼しくて、さわやかです。",
+   "note": "air = 空気。fresh = 新鮮な。"
+  }
+ ]
+}

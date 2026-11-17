@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 3,
+ "section": 3,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "At exactly six o'clock, the bell above the door rang.",
+   "ja": "ちょうど6時に、ドアの上のベルが、鳴りました。",
+   "note": "exactly = ちょうど。above = ~の上の。"
+  },
+  {
+   "text": "An old man in a gray hat walked in and greeted her.",
+   "ja": "灰色の帽子をかぶった、年配の男の人が、入ってきて、彼女に、あいさつしました。",
+   "note": "greet = あいさつする。"
+  },
+  {
+   "text": "“Good morning, Mr. Brown,” Sara said, because he came every day.",
+   "ja": "「おはようございます、ブラウンさん」と、サラは言いました。彼は、毎日、来るからです。",
+   "note": "every day = 毎日。"
+  },
+  {
+   "text": "“I would like one long loaf, if you have a fresh one,” he said.",
+   "ja": "「できたてのパンがあれば、長いパンを、1本、いただきたいんだが」と、彼は言いました。",
+   "note": "if you have ~ = もし~があれば。fresh = できたての。"
+  },
+  {
+   "text": "She wrapped a warm loaf in paper and handed it to him.",
+   "ja": "彼女は、あたたかいパンを、紙に包んで、彼に、手渡しました。",
+   "note": "wrap = 包む。hand ~ to ... = ~を...に手渡す。"
+  }
+ ]
+}

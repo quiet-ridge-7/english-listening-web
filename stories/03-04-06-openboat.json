@@ -1,0 +1,38 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 6,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "The boat had only two wooden oars.",
+   "ja": "ボートには、木のオールが、2本しか、ありませんでした。",
+   "note": "oar = オール(櫂)。wooden = 木でできた。"
+  },
+  {
+   "text": "They were so thin - it seemed as if they would break against the waves.",
+   "ja": "それは、とても細く、波にぶつかったら、折れてしまいそうに見えました。",
+   "note": "it seemed as if ~ = まるで~のようだった。break against ~ = ~にぶつかって折れる。"
+  },
+  {
+   "text": "The sailor, named Billie, directed the boat's movement with one of the oars.",
+   "ja": "ビリーという名前の船員が、オールの1本で、ボートの動きを、操りました。",
+   "note": "named Billie = ビリーという名前の。direct = 向きを操る。"
+  },
+  {
+   "text": "The newspaper reporter pulled the second oar.",
+   "ja": "新聞記者は、もう1本のオールを、こぎました。",
+   "note": "pulled = こいだ(引いた)。second = 2本目の。"
+  },
+  {
+   "text": "He wondered why he was there in the boat.",
+   "ja": "彼は、なぜ自分が、このボートに乗っているのだろう、と思いました。",
+   "note": "wonder why ~ = なぜ~なのかと思う。"
+  },
+  {
+   "text": "The fourth man was the captain of the ship that had sunk.",
+   "ja": "4人目の男は、沈んだ船の、船長でした。",
+   "note": "that had sunk = 沈んでしまった(船)。"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 2,
+ "section": 5,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "The bus did not come, so Mina decided to walk.",
+   "ja": "バスが来なかったので、ミナは、歩くことに、決めました。",
+   "note": "did not come = 来なかった。so = だから。"
+  },
+  {
+   "text": "She opened the red umbrella and stepped into the rain.",
+   "ja": "彼女は、赤い傘を開いて、雨の中へ、踏み出しました。",
+   "note": "step into ~ = ~の中へ踏み出す。"
+  },
+  {
+   "text": "The rain did not touch her at all.",
+   "ja": "雨は、まったく、彼女に、あたりませんでした。",
+   "note": "not ~ at all = 全く~ない。"
+  },
+  {
+   "text": "After ten minutes, she saw a blue door.",
+   "ja": "10分後、彼女は、青いドアを、見つけました。",
+   "note": "After ten minutes = 10分後に。"
+  },
+  {
+   "text": "A sign above it said Blue Door Cafe.",
+   "ja": "その上の看板には、「ブルー・ドア・カフェ」と、ありました。",
+   "note": "above = ~の上に。"
+  }
+ ]
+}

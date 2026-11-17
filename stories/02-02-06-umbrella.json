@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 2,
+ "section": 6,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "She closed the umbrella and went inside.",
+   "ja": "彼女は、傘を閉じて、中に入りました。",
+   "note": "went は、go の過去形。"
+  },
+  {
+   "text": "The cafe was warm and smelled like fresh coffee.",
+   "ja": "カフェは、あたたかく、できたてのコーヒーの、においがしました。",
+   "note": "smell like ~ = ~のにおいがする。fresh = 新しい、できたての。"
+  },
+  {
+   "text": "A tall man was making coffee behind the counter.",
+   "ja": "背の高い男の人が、カウンターの向こうで、コーヒーを、いれていました。",
+   "note": "behind = ~の後ろで。counter = カウンター。"
+  },
+  {
+   "text": "“Excuse me, do you know someone named Leo?” she asked.",
+   "ja": "「すみません、レオという人を、ご存じですか?」と、彼女は、聞きました。",
+   "note": "named Leo = レオという名前の。Excuse me = すみません。"
+  },
+  {
+   "text": "The man looked at the umbrella and smiled.",
+   "ja": "男の人は、傘を見て、にっこりしました。",
+   "note": "look at ~ = ~を見る。"
+  }
+ ]
+}

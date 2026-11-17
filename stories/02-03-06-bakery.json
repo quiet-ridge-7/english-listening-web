@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 3,
+ "section": 6,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "“Oh no, the rolls are still in the oven!” she cried.",
+   "ja": "「大変、ロールパンが、まだ、オーブンの中!」と、彼女は、叫びました。",
+   "note": "cried = 叫んだ。"
+  },
+  {
+   "text": "She opened the oven door quickly.",
+   "ja": "彼女は、急いで、オーブンの扉を、開けました。",
+   "note": "quickly = 急いで。"
+  },
+  {
+   "text": "The rolls were black, and smoke came out.",
+   "ja": "ロールパンは、真っ黒で、けむりが、出てきました。",
+   "note": "came out = 出てきた。"
+  },
+  {
+   "text": "Sara felt sad and a little embarrassed.",
+   "ja": "サラは、悲しくて、少し、恥ずかしい気持ちでした。",
+   "note": "embarrassed = 恥ずかしい。"
+  },
+  {
+   "text": "She had lost twenty rolls in one minute.",
+   "ja": "彼女は、1分で、20個の、ロールパンを、だめにしてしまいました。",
+   "note": "had lost = (すでに)なくしてしまった。"
+  }
+ ]
+}

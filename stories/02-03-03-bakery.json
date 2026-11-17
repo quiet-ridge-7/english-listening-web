@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 3,
+ "section": 3,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "At six o'clock, the front door bell rang.",
+   "ja": "6時に、入り口のベルが、鳴りました。",
+   "note": "rang は、ring の過去形。"
+  },
+  {
+   "text": "An old man in a gray hat came in.",
+   "ja": "灰色の帽子をかぶった、年配の男の人が、入ってきました。",
+   "note": "in a gray hat = 灰色の帽子をかぶった。"
+  },
+  {
+   "text": "“Good morning, Mr. Brown,” Sara said with a smile.",
+   "ja": "「おはようございます、ブラウンさん」と、サラは、笑顔で言いました。",
+   "note": "with a smile = 笑顔で。"
+  },
+  {
+   "text": "“Good morning,” he said. “I would like one long loaf.”",
+   "ja": "「おはよう」と、彼は言いました。「長いパンを、1本、もらえるかな」",
+   "note": "I would like ~ = ~をください(ていねいな言い方)。"
+  },
+  {
+   "text": "Sara put a warm loaf into a paper bag.",
+   "ja": "サラは、あたたかいパンを、紙の袋に、入れました。",
+   "note": "paper bag = 紙の袋。"
+  }
+ ]
+}

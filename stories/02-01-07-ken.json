@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 1,
+ "section": 7,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "The sign said that the top was one kilometer away.",
+   "ja": "看板には、頂上まで、あと1キロ、と書いてありました。",
+   "note": "said that ~ = ~と書いてあった。away = 離れて。"
+  },
+  {
+   "text": "Ken felt new energy and walked faster.",
+   "ja": "ケンは、新しい力がわいてきて、もっと速く、歩きました。",
+   "note": "faster = より速く。"
+  },
+  {
+   "text": "Slowly, the fog began to disappear.",
+   "ja": "ゆっくりと、霧が、消え始めました。",
+   "note": "disappear = 消える。"
+  },
+  {
+   "text": "A bright blue sky appeared above them.",
+   "ja": "明るい青空が、二人の上に、現れました。",
+   "note": "bright = 明るい。above = ~の上に。"
+  },
+  {
+   "text": "They climbed the last hill without stopping.",
+   "ja": "二人は、止まらずに、最後の坂を、登りました。",
+   "note": "without ~ing = ~しないで。"
+  }
+ ]
+}

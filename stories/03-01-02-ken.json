@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 1,
+ "section": 2,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "They met near the station and waited for the first bus.",
+   "ja": "二人は、駅の近くで会って、始発のバスを待ちました。",
+   "note": "wait for ~ = ~を待つ。the first bus = 始発のバス。"
+  },
+  {
+   "text": "When the bus arrived, they sat by the window together.",
+   "ja": "バスが着くと、二人は、窓のそばに、並んで座りました。",
+   "note": "When ~ = ~した時。by the window = 窓のそばに。"
+  },
+  {
+   "text": "Ken could see the mountain far away through the glass.",
+   "ja": "ケンは、ガラス越しに、遠くの山を、見ることができました。",
+   "note": "could see = 見ることができた。through the glass = ガラス越しに。"
+  },
+  {
+   "text": "He was nervous because it would be his first long hike.",
+   "ja": "それが、初めての長いハイキングになるので、彼は、緊張していました。",
+   "note": "it would be ~ = ~になるだろう。"
+  },
+  {
+   "text": "Mia smiled and said that it would be fun.",
+   "ja": "ミアは、にっこり笑って、きっと楽しいよ、と言いました。",
+   "note": "said that ~ = ~と言った。fun = 楽しいこと。"
+  }
+ ]
+}

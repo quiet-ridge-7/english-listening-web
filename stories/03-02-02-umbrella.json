@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 2,
+ "section": 2,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "Water was running down the road like a small river.",
+   "ja": "水が、小さな川のように、道を流れていました。",
+   "note": "was running = 流れていた(進行中)。"
+  },
+  {
+   "text": "Although she walked quickly, the cold rain soaked her hair.",
+   "ja": "急いで歩いたのに、冷たい雨が、彼女の髪を、びしょぬれにしました。",
+   "note": "Although = ~だけれども。soak = びしょぬれにする。"
+  },
+  {
+   "text": "She thought that the bus would be late because of the weather.",
+   "ja": "彼女は、天気のせいで、バスが遅れるだろう、と思いました。",
+   "note": "because of ~ = ~のせいで。would be = ~だろう。"
+  },
+  {
+   "text": "While she waited at the stop, she held her bag over her head.",
+   "ja": "バス停で待つ間、彼女は、かばんを、頭の上に、かかげました。",
+   "note": "While = ~している間。over her head = 頭の上に。"
+  },
+  {
+   "text": "She felt that it was going to be a very difficult morning.",
+   "ja": "彼女は、とても大変な朝になりそうだ、と感じました。",
+   "note": "was going to be = ~になりそうだった。difficult = 大変な。"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 3,
+ "section": 1,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "Sara wakes up at four.",
+   "ja": "サラは、4時に、起きます。",
+   "note": "wake up = 目を覚ます。at four = 4時に。"
+  },
+  {
+   "text": "It is still dark outside.",
+   "ja": "外は、まだ、暗いです。",
+   "note": "still = まだ。dark = 暗い。"
+  },
+  {
+   "text": "She walks to her bakery.",
+   "ja": "彼女は、自分のパン屋まで、歩きます。",
+   "note": "bakery = パン屋。"
+  },
+  {
+   "text": "She turns on the lights.",
+   "ja": "彼女は、明かりを、つけます。",
+   "note": "turn on = (明かりを)つける。"
+  },
+  {
+   "text": "She washes her hands.",
+   "ja": "彼女は、手を洗います。",
+   "note": "wash = 洗う。"
+  }
+ ]
+}

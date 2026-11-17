@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 1,
+ "section": 7,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "The sign says “Top: one kilometer.”",
+   "ja": "看板には、「頂上まで、1キロ」と、あります。",
+   "note": "top = 頂上。kilometer = キロメートル。"
+  },
+  {
+   "text": "Ken feels new energy.",
+   "ja": "ケンは、新しい力が、わいてきます。",
+   "note": "energy = 元気、力。new = 新しい。"
+  },
+  {
+   "text": "The fog goes away slowly.",
+   "ja": "霧は、ゆっくり、消えていきます。",
+   "note": "go away = 去る、消える。"
+  },
+  {
+   "text": "Blue sky appears.",
+   "ja": "青空が、現れます。",
+   "note": "appear = 現れる。sky = 空。"
+  },
+  {
+   "text": "They climb the last hill.",
+   "ja": "二人は、最後の坂を、登ります。",
+   "note": "last = 最後の。"
+  }
+ ]
+}

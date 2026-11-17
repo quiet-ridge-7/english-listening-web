@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 1,
+ "section": 5,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "Fog comes slowly.",
+   "ja": "霧が、ゆっくり、出てきます。",
+   "note": "fog = 霧。comes = 来る。"
+  },
+  {
+   "text": "Soon, Ken cannot see far.",
+   "ja": "すぐに、ケンは、遠くが見えなくなります。",
+   "note": "soon = まもなく。cannot = ~できない。far = 遠くまで。"
+  },
+  {
+   "text": "The trail looks different now.",
+   "ja": "登山道は、いつもと違って見えます。",
+   "note": "look + 形容詞 = ~に見える。different = 違う。"
+  },
+  {
+   "text": "“Where is the path?” asks Ken.",
+   "ja": "「道は、どこ?」と、ケンは聞きます。",
+   "note": "path = 道。Where is ~? = ~はどこ?"
+  },
+  {
+   "text": "Mia stops and looks around.",
+   "ja": "ミアは、立ち止まって、あたりを見回します。",
+   "note": "look around = 見回す。"
+  }
+ ]
+}

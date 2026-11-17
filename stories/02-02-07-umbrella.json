@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 2,
+ "section": 7,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "The man called his son from the back room.",
+   "ja": "男の人は、奥の部屋から、息子を、呼びました。",
+   "note": "back room = 奥の部屋。"
+  },
+  {
+   "text": "A small boy ran out with a big smile.",
+   "ja": "小さな男の子が、満面の笑みで、走って出てきました。",
+   "note": "ran out = 走り出てきた。"
+  },
+  {
+   "text": "“That is my umbrella!” he shouted happily.",
+   "ja": "「それは、ぼくの傘だ!」と、彼は、うれしそうに、叫びました。",
+   "note": "shout = 叫ぶ。happily = うれしそうに。"
+  },
+  {
+   "text": "“I lost it at the bus stop this morning.”",
+   "ja": "「今朝、バス停で、なくしたんだ」",
+   "note": "lost it = なくした。"
+  },
+  {
+   "text": "Mina gave the umbrella back to him.",
+   "ja": "ミナは、傘を、彼に、返しました。",
+   "note": "give back = 返す。gave は、give の過去形。"
+  }
+ ]
+}

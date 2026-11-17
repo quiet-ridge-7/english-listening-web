@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 1,
+ "section": 5,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "Fog came up from the valley below, and the air became cold.",
+   "ja": "下の谷から、霧が上がってきて、空気が、冷たくなりました。",
+   "note": "became は、become(~になる)の過去形。"
+  },
+  {
+   "text": "Soon, Ken could not see more than ten meters ahead.",
+   "ja": "すぐに、ケンは、10メートル先も、見えなくなりました。",
+   "note": "ahead = 前方に。"
+  },
+  {
+   "text": "The trail looked completely different, so he began to worry.",
+   "ja": "登山道は、まったく違って見えたので、彼は、心配になり始めました。",
+   "note": "completely = まったく。so = だから。"
+  },
+  {
+   "text": "“Did we miss the path?” he asked in a low voice.",
+   "ja": "「道を、間違えたのかな?」と、彼は、小さな声で聞きました。",
+   "note": "miss = 見逃す、外れる。in a low voice = 小さな声で。"
+  },
+  {
+   "text": "Mia stopped, looked around carefully, and took out a small map.",
+   "ja": "ミアは、立ち止まって、注意深く、あたりを見回し、小さな地図を、取り出しました。",
+   "note": "stopped, looked, and took = 3つの動作を、並べている。"
+  }
+ ]
+}

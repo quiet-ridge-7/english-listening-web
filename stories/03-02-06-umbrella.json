@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 2,
+ "section": 6,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "A tall man behind the counter was making coffee for a customer.",
+   "ja": "カウンターの向こうの、背の高い男の人は、お客さんのために、コーヒーを、いれていました。",
+   "note": "customer = お客さん。"
+  },
+  {
+   "text": "She waited until he finished, and then she walked up to him.",
+   "ja": "彼女は、彼が終わるまで待って、それから、彼に、近づきました。",
+   "note": "until = ~まで。walk up to ~ = ~に近づく。"
+  },
+  {
+   "text": "“Excuse me, do you know a person named Leo?” she asked politely.",
+   "ja": "「すみません、レオという人を、ご存じですか?」と、彼女は、ていねいに、聞きました。",
+   "note": "politely = ていねいに。"
+  },
+  {
+   "text": "The man looked at the red umbrella and began to laugh.",
+   "ja": "男の人は、赤い傘を見て、笑い出しました。",
+   "note": "begin to ~ = ~し始める。"
+  },
+  {
+   "text": "“I know him very well,” he said, “because he is my son.”",
+   "ja": "「彼のことは、よく知っていますよ。私の息子ですから」と、彼は言いました。",
+   "note": "because = なぜなら。son = 息子。"
+  }
+ ]
+}

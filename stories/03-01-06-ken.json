@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 1,
+ "section": 6,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "“If I am right, we need to turn left at the big tree,” she said.",
+   "ja": "「私が正しければ、あの大きな木のところで、左に曲がるはず」と、彼女は言いました。",
+   "note": "If I am right = もし私が正しければ。"
+  },
+  {
+   "text": "They walked slowly because the ground was wet and slippery.",
+   "ja": "地面が、ぬれて、すべりやすかったので、二人は、ゆっくり歩きました。",
+   "note": "slippery = すべりやすい。ground = 地面。"
+  },
+  {
+   "text": "Ken held the strap of Mia's bag so that they would not be separated.",
+   "ja": "はぐれないように、ケンは、ミアのかばんの、ひもを、つかんでいました。",
+   "note": "so that ~ = ~するように。separated = 離れ離れになった。"
+  },
+  {
+   "text": "After twenty minutes of careful walking, they found a wooden sign.",
+   "ja": "20分間、慎重に歩いた後、二人は、木の看板を、見つけました。",
+   "note": "careful walking = 注意深い歩行。"
+  },
+  {
+   "text": "It said that the top was only one kilometer away.",
+   "ja": "そこには、頂上まで、あと1キロ、と書いてありました。",
+   "note": "It said that ~ = それは~と書いてあった。only = たった。"
+  }
+ ]
+}

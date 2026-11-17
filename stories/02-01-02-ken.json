@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 1,
+ "section": 2,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "“Yes, I will leave the house now,” Ken said.",
+   "ja": "「うん、今から家を出るよ」と、ケンは言いました。",
+   "note": "leave = 出る、離れる。will leave = これから出る。"
+  },
+  {
+   "text": "They met at the bus stop near the station.",
+   "ja": "二人は、駅の近くのバス停で、会いました。",
+   "note": "met は、meet(会う)の過去形。near = ~の近く。"
+  },
+  {
+   "text": "The bus to the mountain came ten minutes later.",
+   "ja": "山へ行くバスは、10分後に、来ました。",
+   "note": "ten minutes later = 10分後に。came は、come の過去形。"
+  },
+  {
+   "text": "Ken felt a little nervous, but he was happy.",
+   "ja": "ケンは、少し緊張していましたが、うれしい気持ちでした。",
+   "note": "nervous = 緊張した。a little = 少し。but = しかし。"
+  },
+  {
+   "text": "It was his first long hike.",
+   "ja": "それは、彼にとって、初めての長いハイキングでした。",
+   "note": "hike = ハイキング。first long hike = 初めての、長いハイキング。"
+  }
+ ]
+}

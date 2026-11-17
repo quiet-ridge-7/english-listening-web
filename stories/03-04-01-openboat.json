@@ -1,0 +1,38 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 1,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "Our story today is called “The Open Boat.”",
+   "ja": "今日の物語の題名は、「小さなボート(The Open Boat)」です。",
+   "note": "today's story = 今日の物語。called ~ = ~という題名の。"
+  },
+  {
+   "text": "It was written by Stephen Crane and is based on what really happened to him in eighteen ninety-six.",
+   "ja": "これは、スティーブン・クレインが書いた物語で、1896年に、彼自身に、実際に起きたことに、もとづいています。",
+   "note": "be based on ~ = ~に基づく。eighteen ninety-six = 1896(年)。"
+  },
+  {
+   "text": "Crane was traveling from the United States to Cuba as a newspaper reporter.",
+   "ja": "クレインは、新聞記者として、アメリカから、キューバへ向かっていました。",
+   "note": "newspaper reporter = 新聞記者。travel from A to B = AからBへ旅行する。"
+  },
+  {
+   "text": "One night, his ship hit a sandbar.",
+   "ja": "ある夜、彼の乗った船は、砂州に、ぶつかりました。",
+   "note": "hit a sandbar = 砂州(水中の浅い砂の盛り上がり)にぶつかった。"
+  },
+  {
+   "text": "It sank in the Atlantic Ocean, off the coast of Florida.",
+   "ja": "船は、フロリダの沖の、大西洋に、沈みました。",
+   "note": "sank は、sink(沈む)の過去形。off the coast of ~ = ~の沖合で。"
+  },
+  {
+   "text": "Most of the people on board got into lifeboats.",
+   "ja": "乗っていた人の、ほとんどは、救命ボートに、乗り込みました。",
+   "note": "on board = 乗っていた。lifeboat = 救命ボート。"
+  }
+ ]
+}

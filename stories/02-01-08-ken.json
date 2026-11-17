@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 1,
+ "section": 8,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "Finally, they stood on the top of the mountain.",
+   "ja": "ついに、二人は、山の頂上に、立ちました。",
+   "note": "stood は、stand の過去形。"
+  },
+  {
+   "text": "“Wow, it is beautiful!” Ken shouted.",
+   "ja": "「わあ、きれいだ!」と、ケンは、叫びました。",
+   "note": "beautiful = 美しい。shout = 叫ぶ。"
+  },
+  {
+   "text": "He could see many mountains in every direction.",
+   "ja": "彼は、あらゆる方向に、たくさんの山が見えました。",
+   "note": "direction = 方向。every direction = あらゆる方向。"
+  },
+  {
+   "text": "The sun was warm, and the wind was gentle.",
+   "ja": "太陽は、あたたかく、風は、おだやかでした。",
+   "note": "gentle = おだやかな。"
+  },
+  {
+   "text": "They ate lunch together and took a photo.",
+   "ja": "二人は、いっしょに昼ごはんを食べて、写真を撮りました。",
+   "note": "took a photo = 写真を撮った。"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 2,
+ "section": 8,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "Leo is very happy.",
+   "ja": "レオは、とても、うれしそうです。",
+   "note": "happy = うれしい。"
+  },
+  {
+   "text": "The man brings her a coffee.",
+   "ja": "男の人は、彼女に、コーヒーを、持ってきます。",
+   "note": "bring = 持ってくる。"
+  },
+  {
+   "text": "It is warm and sweet.",
+   "ja": "それは、あたたかくて、甘いです。",
+   "note": "sweet = 甘い。"
+  },
+  {
+   "text": "Mina thanks them and leaves.",
+   "ja": "ミナは、二人に、お礼を言って、出て行きます。",
+   "note": "thank = ありがとうと言う。"
+  },
+  {
+   "text": "She arrives at work on time.",
+   "ja": "彼女は、時間通りに、職場に着きます。",
+   "note": "on time = 時間通りに。"
+  }
+ ]
+}

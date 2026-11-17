@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 3,
+ "section": 5,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "More people come into the shop.",
+   "ja": "もっと多くの人が、お店に、入ってきます。",
+   "note": "more = もっと多くの。come into ~ = ~に入ってくる。"
+  },
+  {
+   "text": "Soon the line is very long.",
+   "ja": "すぐに、列が、とても長くなります。",
+   "note": "line = 列。long = 長い。"
+  },
+  {
+   "text": "Sara is very busy now.",
+   "ja": "サラは、今、とても忙しいです。",
+   "note": "busy = 忙しい。now = 今。"
+  },
+  {
+   "text": "She talks and sells the bread.",
+   "ja": "彼女は、話しながら、パンを、売ります。",
+   "note": "sell = 売る。"
+  },
+  {
+   "text": "Then she smells strong smoke.",
+   "ja": "それから、彼女は、強い、けむりの、においに気づきます。",
+   "note": "smoke = けむり。strong = 強い。"
+  }
+ ]
+}

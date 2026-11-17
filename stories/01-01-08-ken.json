@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 1,
+ "section": 8,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "Then they stand on the top.",
+   "ja": "そして、頂上に、立ちます。",
+   "note": "then = それから。stand = 立つ。"
+  },
+  {
+   "text": "“Wow!” says Ken.",
+   "ja": "「わあ!」と、ケンは言います。",
+   "note": "Wow = わあ(驚きの声)。"
+  },
+  {
+   "text": "He can see many mountains.",
+   "ja": "彼は、たくさんの山を、見ることができます。",
+   "note": "can see = 見える。many = たくさんの。"
+  },
+  {
+   "text": "The sun is warm.",
+   "ja": "太陽は、あたたかいです。",
+   "note": "sun = 太陽。warm = 暖かい。"
+  },
+  {
+   "text": "Ken and Mia eat lunch happily.",
+   "ja": "ケンとミアは、楽しく、昼ごはんを食べます。",
+   "note": "happily = うれしそうに。"
+  }
+ ]
+}

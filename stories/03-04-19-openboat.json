@@ -1,0 +1,38 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 19,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "Slowly, the land seemed to rise from the sea.",
+   "ja": "ゆっくりと、陸が、海から、現れるように見えました。",
+   "note": "rise from ~ = ~から現れる。"
+  },
+  {
+   "text": "Soon, the men could see two lines, one black and one white.",
+   "ja": "まもなく、男たちは、2本の線が、見えました。1本は黒く、1本は白い線です。",
+   "note": "lines = 線。"
+  },
+  {
+   "text": "They knew that the black line was formed by trees, and the white line was the sand.",
+   "ja": "黒い線は、木々で、白い線は、砂だと、彼らは、わかりました。",
+   "note": "was formed by ~ = ~でできていた。sand = 砂。"
+  },
+  {
+   "text": "At last, the captain saw a house on the shore.",
+   "ja": "ついに、船長は、岸に、家を1軒、見つけました。",
+   "note": "shore = 岸。"
+  },
+  {
+   "text": "And the lighthouse became even larger.",
+   "ja": "そして、灯台は、さらに、大きくなりました。",
+   "note": "even larger = さらに大きく。"
+  },
+  {
+   "text": "“The keeper of the lighthouse should be able to see us now,” said the captain.",
+   "ja": "「灯台の管理人は、もう、私たちが見えるはずだ」と、船長は、言いました。",
+   "note": "keeper = 管理人。should be able to ~ = ~できるはずだ。"
+  }
+ ]
+}

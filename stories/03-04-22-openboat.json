@@ -1,0 +1,38 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 22,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "But he felt in the top pocket of his coat and found eight cigars.",
+   "ja": "しかし、彼が、上着の胸のポケットを、探ると、葉巻が、8本、見つかりました。",
+   "note": "pocket = ポケット。cigar = 葉巻。"
+  },
+  {
+   "text": "Four were wet, but four were still dry.",
+   "ja": "4本は、ぬれていましたが、4本は、まだ、乾いていました。",
+   "note": "4本はぬれて、4本は、まだ乾いていた。"
+  },
+  {
+   "text": "One of the men found some dry matches.",
+   "ja": "男の一人が、乾いたマッチを、見つけました。",
+   "note": "matches = マッチ。"
+  },
+  {
+   "text": "Each man lit a cigar.",
+   "ja": "男たちは、それぞれ、葉巻に、火をつけました。",
+   "note": "lit は、light(火をつける)の過去形。"
+  },
+  {
+   "text": "The four men sailed in their boat with the belief of a rescue shining in their eyes.",
+   "ja": "4人の男は、助かるという信念を、目に輝かせて、ボートで、進みました。",
+   "note": "belief of a rescue = 助かるという信念。shining in their eyes = 目に輝いて。"
+  },
+  {
+   "text": "They smoked their big cigars and took a drink of water.",
+   "ja": "彼らは、大きな葉巻を、吸い、水を、飲みました。",
+   "note": "smoked = 吸った。took a drink of water = 水を飲んだ。"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 2,
+ "section": 7,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "The man calls his son.",
+   "ja": "男の人は、息子を、呼びます。",
+   "note": "call = 呼ぶ。his son = 彼の息子。"
+  },
+  {
+   "text": "A small boy comes out.",
+   "ja": "小さな男の子が、出てきます。",
+   "note": "come out = 出てくる。"
+  },
+  {
+   "text": "“That is my umbrella!” he says.",
+   "ja": "「それは、ぼくの傘だ!」と、彼は言います。",
+   "note": "my umbrella = 私の傘。"
+  },
+  {
+   "text": "“I lost it this morning.”",
+   "ja": "「今朝、なくしたんだ」",
+   "note": "lost は、lose(なくす)の過去形。"
+  },
+  {
+   "text": "Mina gives it to him.",
+   "ja": "ミナは、それを、彼に渡します。",
+   "note": "give ~ to ... = ~を...にあげる。"
+  }
+ ]
+}

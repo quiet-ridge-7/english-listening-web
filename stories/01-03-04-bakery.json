@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 3,
+ "section": 4,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "Sara puts it in a bag.",
+   "ja": "サラは、それを、袋に入れます。",
+   "note": "put ~ in ... = ~を...に入れる。"
+  },
+  {
+   "text": "“It smells great,” he says.",
+   "ja": "「いいにおいだね」と、彼は言います。",
+   "note": "great = すばらしい。"
+  },
+  {
+   "text": "He pays and smiles.",
+   "ja": "彼は、お金を払って、にっこりします。",
+   "note": "pay = 払う。"
+  },
+  {
+   "text": "“I was a baker, too.”",
+   "ja": "「私も、パン職人だったんだよ」",
+   "note": "baker = パン職人。too = ~も。"
+  },
+  {
+   "text": "Sara listens to him.",
+   "ja": "サラは、彼の話を、聞きます。",
+   "note": "listen to ~ = ~を聞く。"
+  }
+ ]
+}

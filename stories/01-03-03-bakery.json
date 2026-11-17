@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 3,
+ "section": 3,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "The bell rings at six.",
+   "ja": "6時に、ベルが、鳴ります。",
+   "note": "bell = ベル。ring = 鳴る。"
+  },
+  {
+   "text": "An old man comes in.",
+   "ja": "年配の男の人が、入ってきます。",
+   "note": "come in = 入ってくる。"
+  },
+  {
+   "text": "“Good morning,” says Sara.",
+   "ja": "「おはようございます」と、サラは言います。",
+   "note": "says Sara = サラが言う。"
+  },
+  {
+   "text": "“Good morning,” he says.",
+   "ja": "「おはよう」と、彼は言います。",
+   "note": "he says = 彼が言う。"
+  },
+  {
+   "text": "He wants one long loaf.",
+   "ja": "彼は、長いパンを、1本、ほしがっています。",
+   "note": "want = ほしい。loaf = パン1本。"
+  }
+ ]
+}

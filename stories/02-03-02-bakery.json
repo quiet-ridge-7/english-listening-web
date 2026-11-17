@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 3,
+ "section": 2,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "Then she mixed flour, water, and a little salt.",
+   "ja": "それから、小麦粉と水と、少しの塩を、混ぜました。",
+   "note": "a little = 少し。salt = 塩。"
+  },
+  {
+   "text": "The dough was soft, and it felt warm.",
+   "ja": "生地は、やわらかく、あたたかく感じました。",
+   "note": "felt は、feel(感じる)の過去形。"
+  },
+  {
+   "text": "She made twenty round rolls and ten long loaves.",
+   "ja": "彼女は、丸いロールパンを20個と、長いパンを10本、作りました。",
+   "note": "loaves は、loaf(パン1本)の複数形。"
+  },
+  {
+   "text": "She put them in the hot oven carefully.",
+   "ja": "彼女は、それらを、熱いオーブンに、注意深く入れました。",
+   "note": "them = それらを。"
+  },
+  {
+   "text": "Soon, the whole shop smelled wonderful.",
+   "ja": "すぐに、お店じゅうが、すばらしいにおいに、なりました。",
+   "note": "whole = 全体の。wonderful = すばらしい。"
+  }
+ ]
+}

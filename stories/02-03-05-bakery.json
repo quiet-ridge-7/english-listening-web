@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 3,
+ "section": 5,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "More and more people came into the shop.",
+   "ja": "だんだん、たくさんの人が、お店に、入ってきました。",
+   "note": "more and more = だんだん多く。"
+  },
+  {
+   "text": "Soon the line reached the front door.",
+   "ja": "すぐに、列は、入り口まで、届きました。",
+   "note": "reach = 届く。"
+  },
+  {
+   "text": "Sara was busy talking and selling bread.",
+   "ja": "サラは、話したり、パンを売ったりするのに、忙しくしていました。",
+   "note": "busy ~ing = ~するのに忙しい。"
+  },
+  {
+   "text": "She forgot to look at the timer.",
+   "ja": "彼女は、タイマーを見るのを、忘れました。",
+   "note": "forgot to ~ = ~するのを忘れた。"
+  },
+  {
+   "text": "Suddenly, she smelled smoke in the air.",
+   "ja": "突然、彼女は、空気の中に、けむりの、においを感じました。",
+   "note": "Suddenly = 突然。"
+  }
+ ]
+}

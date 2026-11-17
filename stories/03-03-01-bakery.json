@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 3,
+ "section": 1,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "Sara woke up at four o'clock, long before the sun came up.",
+   "ja": "サラは、日の出のずっと前の、4時に、起きました。",
+   "note": "long before ~ = ~よりずっと前に。"
+  },
+  {
+   "text": "Although it was still dark, she walked happily to her bakery.",
+   "ja": "まだ暗かったのに、彼女は、楽しい気持ちで、パン屋まで、歩きました。",
+   "note": "Although = ~だけれども。"
+  },
+  {
+   "text": "When she reached the shop, she turned on the lights and the oven.",
+   "ja": "お店に着くと、彼女は、明かりと、オーブンを、つけました。",
+   "note": "reach = 着く。"
+  },
+  {
+   "text": "After washing her hands, she mixed flour, water, and salt in a big bowl.",
+   "ja": "手を洗った後、彼女は、大きなボウルで、小麦粉と水と塩を、混ぜました。",
+   "note": "bowl = ボウル。"
+  },
+  {
+   "text": "She pressed the dough again and again until it became soft and smooth.",
+   "ja": "彼女は、生地が、やわらかく、なめらかになるまで、何度も、押しました。",
+   "note": "again and again = 何度も。smooth = なめらか。"
+  }
+ ]
+}

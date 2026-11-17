@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 2,
+ "section": 1,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "Mina looks out the window.",
+   "ja": "ミナは、窓の外を、見ます。",
+   "note": "look out ~ = ~から外を見る。"
+  },
+  {
+   "text": "It is raining hard today.",
+   "ja": "今日は、雨が、激しく降っています。",
+   "note": "hard = 激しく。rain hard = 激しく降る。"
+  },
+  {
+   "text": "She has a meeting at nine.",
+   "ja": "彼女は、9時に、会議があります。",
+   "note": "meeting = 会議。at nine = 9時に。"
+  },
+  {
+   "text": "Her umbrella is broken.",
+   "ja": "彼女の傘は、壊れています。",
+   "note": "broken = 壊れている。"
+  },
+  {
+   "text": "She puts on her coat.",
+   "ja": "彼女は、コートを着ます。",
+   "note": "put on = 身につける。"
+  }
+ ]
+}

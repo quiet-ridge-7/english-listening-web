@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 2,
+ "section": 1,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "Mina looked out the window and saw heavy rain falling.",
+   "ja": "ミナは、窓の外を見て、激しい雨が降っているのを、見ました。",
+   "note": "heavy rain = 激しい雨。saw は、see の過去形。"
+  },
+  {
+   "text": "She had an important meeting at nine, so she could not be late.",
+   "ja": "彼女は、9時に、大切な会議があったので、遅れるわけには、いきませんでした。",
+   "note": "so = だから。be late = 遅れる。"
+  },
+  {
+   "text": "Her only umbrella was broken, and she had no time to buy another.",
+   "ja": "たった1本の傘は、壊れていて、別の傘を買う時間も、ありませんでした。",
+   "note": "only = たった1つの。another = 別の物。"
+  },
+  {
+   "text": "After she put on her coat and boots, she hurried out of the house.",
+   "ja": "コートと長靴を身につけると、彼女は、急いで、家を出ました。",
+   "note": "hurry out = 急いで出る。"
+  },
+  {
+   "text": "The street was so wet that the cars drove very slowly.",
+   "ja": "通りが、とてもぬれていたので、車は、とてもゆっくり走っていました。",
+   "note": "so ~ that ... = とても~なので...。"
+  }
+ ]
+}

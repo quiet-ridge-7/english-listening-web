@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 2,
+ "section": 4,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "It is big and dry.",
+   "ja": "それは、大きくて、乾いています。",
+   "note": "dry = 乾いている。"
+  },
+  {
+   "text": "A tag hangs from the handle.",
+   "ja": "持ち手に、札が、ぶら下がっています。",
+   "note": "tag = 札。handle = 持ち手。hang = ぶら下がる。"
+  },
+  {
+   "text": "The tag says Leo.",
+   "ja": "札には、「レオ」と、書いてあります。",
+   "note": "say = (書いてあるのが)~と言う。ここでは、名前。"
+  },
+  {
+   "text": "Who is Leo, she wonders.",
+   "ja": "レオって、だれだろう、と彼女は、思います。",
+   "note": "wonder = 不思議に思う。"
+  },
+  {
+   "text": "The bus is still not here.",
+   "ja": "バスは、まだ、来ません。",
+   "note": "still not = まだ~ない。"
+  }
+ ]
+}

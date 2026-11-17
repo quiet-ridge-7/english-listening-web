@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 1,
+ "section": 1,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "Ken wakes up early today.",
+   "ja": "ケンは、今日、早く起きます。",
+   "note": "wake up = 目を覚ます。Ken(彼)の時は、wakes と s がつく。"
+  },
+  {
+   "text": "It is Saturday morning.",
+   "ja": "土曜日の朝です。",
+   "note": "It is ~ = 今日は~です(時間や天気を言う時の it)。"
+  },
+  {
+   "text": "He packs a small bag.",
+   "ja": "彼は、小さなかばんに、荷物を詰めます。",
+   "note": "pack = 荷物を詰める。small = 小さい。"
+  },
+  {
+   "text": "There is water in the bag.",
+   "ja": "かばんの中に、水があります。",
+   "note": "There is ~ = ~がある。in the bag = かばんの中に。"
+  },
+  {
+   "text": "There is a sandwich, too.",
+   "ja": "サンドイッチも、あります。",
+   "note": "too = ~も(文の最後に置く)。"
+  }
+ ]
+}

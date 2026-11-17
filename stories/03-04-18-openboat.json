@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 18,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "He always spoke in a low voice and calmly.",
+   "ja": "彼は、いつも、低い声で、落ち着いて、話しました。",
+   "note": "in a low voice = 低い声で。calmly = 落ち着いて。"
+  },
+  {
+   "text": "“I wish we had a sail,” he said, “to give you two boys a chance to rest.”",
+   "ja": "「帆があれば、いいのだが」と、彼は言いました。「君たち二人に、休む機会を、あげられるのに」",
+   "note": "I wish we had ~ = ~があればいいのに(実際には、ない)。sail = 帆。"
+  },
+  {
+   "text": "So they used his coat and one of the oars to make a sail and the boat moved much more quickly.",
+   "ja": "そこで、彼らは、船長の上着と、オールの1本で、帆を作り、ボートは、ずっと速く、進みました。",
+   "note": "make a sail = 帆を作る。much more quickly = ずっと速く。"
+  },
+  {
+   "text": "The lighthouse had been slowly growing larger.",
+   "ja": "灯台は、だんだん、大きくなっていました。",
+   "note": "had been growing = だんだん大きくなっていた。"
+  },
+  {
+   "text": "At last, from the top of each wave the men in the boat could see land.",
+   "ja": "ついに、波の頂上から、ボートの男たちは、陸を、見ることができました。",
+   "note": "At last = ついに。land = 陸。"
+  }
+ ]
+}

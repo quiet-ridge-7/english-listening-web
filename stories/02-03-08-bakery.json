@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 3,
+ "section": 8,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "“Always use two timers, not just one,” he said.",
+   "ja": "「いつも、タイマーは、1つではなく、2つ、使いなさい」と、彼は言いました。",
+   "note": "not just one = 1つだけではなく。"
+  },
+  {
+   "text": "Sara laughed, and she felt much better.",
+   "ja": "サラは、笑って、ずっと、気分が良くなりました。",
+   "note": "much better = ずっと良く。"
+  },
+  {
+   "text": "The customers bought the long loaves instead.",
+   "ja": "お客さんたちは、かわりに、長いパンを、買いました。",
+   "note": "instead = かわりに。"
+  },
+  {
+   "text": "Soon the shop was full of happy voices again.",
+   "ja": "すぐに、お店は、また、楽しそうな声で、いっぱいになりました。",
+   "note": "full of ~ = ~でいっぱい。"
+  },
+  {
+   "text": "That evening, Sara wrote a new rule on the wall.",
+   "ja": "その晩、サラは、壁に、新しいきまりを、書きました。",
+   "note": "rule = きまり。wrote は、write の過去形。"
+  }
+ ]
+}

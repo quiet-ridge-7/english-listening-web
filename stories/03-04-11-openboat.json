@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 11,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "The cook said the men were lucky because the wind was blowing toward the shore.",
+   "ja": "風が、岸のほうへ吹いているから、運がいい、と、料理人は、言いました。",
+   "note": "lucky = 運がいい。toward the shore = 岸の方へ。"
+  },
+  {
+   "text": "If it started blowing the other way, they would never reach land.",
+   "ja": "もし、風が、反対に吹き始めたら、彼らは、決して、陸にたどり着けないでしょう。",
+   "note": "the other way = 反対の方向。"
+  },
+  {
+   "text": "The reporter and the sailor agreed.",
+   "ja": "記者と船員は、同じ意見でした。",
+   "note": "agree = 賛成する。"
+  },
+  {
+   "text": "But the captain laughed in a way that expressed humor and tragedy all in one.",
+   "ja": "しかし、船長は、ユーモアと悲劇が、ひとつになったような、笑い方をしました。",
+   "note": "laughed in a way that ~ = ~のような笑い方をした。humor and tragedy = ユーモアと悲劇。"
+  },
+  {
+   "text": "He asked: “Do you think we've got much of a chance now, boys?”",
+   "ja": "彼は、こう聞きました。「今、うまくいく見込みは、あると思うか、みんな?」",
+   "note": "we've got = we have got(持っている)。chance = 見込み。"
+  }
+ ]
+}

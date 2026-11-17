@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 2,
+ "section": 2,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "She leaves the house quickly.",
+   "ja": "彼女は、急いで、家を出ます。",
+   "note": "leave = 出る。quickly = 急いで。"
+  },
+  {
+   "text": "The street is very wet.",
+   "ja": "通りは、とてもぬれています。",
+   "note": "wet = ぬれた。"
+  },
+  {
+   "text": "Cars drive by slowly.",
+   "ja": "車が、ゆっくり、通り過ぎます。",
+   "note": "drive by = 通り過ぎる。slowly = ゆっくり。"
+  },
+  {
+   "text": "Mina walks to the bus stop.",
+   "ja": "ミナは、バス停まで、歩きます。",
+   "note": "walk to ~ = ~へ歩いて行く。"
+  },
+  {
+   "text": "Her hair is getting wet.",
+   "ja": "彼女の髪が、だんだん、ぬれてきます。",
+   "note": "is getting ~ = だんだん~になっている(進行中)。"
+  }
+ ]
+}

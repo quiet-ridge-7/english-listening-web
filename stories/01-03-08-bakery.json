@@ -1,0 +1,33 @@
+{
+ "level": 1,
+ "story": 3,
+ "section": 8,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "“Use two timers,” he says.",
+   "ja": "「タイマーを、2つ、使いなさい」と、彼は言います。",
+   "note": "use = 使う。two timers = タイマー2つ。"
+  },
+  {
+   "text": "Sara laughs and feels better.",
+   "ja": "サラは、笑って、気分が、良くなります。",
+   "note": "feel better = 気分が良くなる。"
+  },
+  {
+   "text": "The customers buy long loaves.",
+   "ja": "お客さんたちは、長いパンを、買います。",
+   "note": "buy = 買う。"
+  },
+  {
+   "text": "The shop is full again.",
+   "ja": "お店は、また、いっぱいです。",
+   "note": "full = いっぱい。again = また。"
+  },
+  {
+   "text": "Sara is happy at last.",
+   "ja": "サラは、ついに、うれしくなりました。",
+   "note": "at last = ついに。"
+  }
+ ]
+}

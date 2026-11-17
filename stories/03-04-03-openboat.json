@@ -1,0 +1,38 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 3,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "Would they finally reach land?",
+   "ja": "彼らは、ついに、陸にたどり着けるのでしょうか。",
+   "note": "Would they ~? = 彼らは~できるだろうか(物語への問いかけ)。"
+  },
+  {
+   "text": "Here is Shep O'Neal with the first part of the story.",
+   "ja": "ここから、シェップ・オニールが、物語の最初の部分を、お届けします。",
+   "note": "Shep O'Neal = VOAの朗読者の名前。the first part = 最初の部分。"
+  },
+  {
+   "text": "The small lifeboat bounced from wave to wave in the rough seas of the Atlantic.",
+   "ja": "小さな救命ボートは、荒れた大西洋の上を、波から波へと、跳ねました。",
+   "note": "bounce = 跳ねる。from wave to wave = 波から波へ。rough = 荒れた。"
+  },
+  {
+   "text": "The four men in the boat could not see the sky.",
+   "ja": "ボートの4人の男には、空が見えませんでした。",
+   "note": "could not see = 見えなかった。"
+  },
+  {
+   "text": "The waves rose too high.",
+   "ja": "波が、高く上がりすぎていたのです。",
+   "note": "rose は、rise(上がる)の過去形。too high = 高すぎる。"
+  },
+  {
+   "text": "The waves with their white tops pushed at the open boat with angry violence.",
+   "ja": "白い波頭をもった波が、激しい怒りで、屋根のないボートを、押しました。",
+   "note": "push at ~ = ~を押す。violence = 激しさ。tops = 波の頂上。"
+  }
+ ]
+}

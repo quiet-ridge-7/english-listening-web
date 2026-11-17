@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 1,
+ "section": 8,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "“I never imagined that it would be this beautiful,” he said.",
+   "ja": "「こんなにきれいだなんて、想像もしなかった」と、彼は言いました。",
+   "note": "never imagined = 想像もしなかった。this beautiful = これほど美しい。"
+  },
+  {
+   "text": "Mountains stretched out in every direction under the warm sun.",
+   "ja": "暖かい太陽の下、山々が、あらゆる方向に、広がっていました。",
+   "note": "stretch out = 広がる。"
+  },
+  {
+   "text": "Mia took a photo of him with the clouds behind him.",
+   "ja": "ミアは、後ろに雲が見える彼の、写真を、撮りました。",
+   "note": "behind = ~の後ろに。"
+  },
+  {
+   "text": "They ate lunch together and talked about their next adventure.",
+   "ja": "二人は、いっしょに昼ごはんを食べて、次の冒険について、話しました。",
+   "note": "adventure = 冒険。talk about ~ = ~について話す。"
+  },
+  {
+   "text": "“Next time, let's try an even higher mountain,” Ken suggested.",
+   "ja": "「次は、もっと高い山に、挑戦しよう」と、ケンは、提案しました。",
+   "note": "even higher = さらに高い。try = 挑戦する。"
+  }
+ ]
+}

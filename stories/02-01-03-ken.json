@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 1,
+ "section": 3,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "The trail began in a quiet forest.",
+   "ja": "登山道は、静かな森の中から、始まりました。",
+   "note": "began は、begin の過去形。quiet = 静かな。"
+  },
+  {
+   "text": "The trees were tall, and the air was cool.",
+   "ja": "木は高く、空気は涼しかったです。",
+   "note": "were、was は、are、is の過去形。"
+  },
+  {
+   "text": "Ken walked slowly because the hill was steep.",
+   "ja": "坂が急だったので、ケンは、ゆっくり歩きました。",
+   "note": "steep = 急な。because = ~なので。"
+  },
+  {
+   "text": "Mia walked in front of him and set the pace.",
+   "ja": "ミアは、彼の前を歩いて、ペースを作りました。",
+   "note": "set the pace = ペースを決める。"
+  },
+  {
+   "text": "After an hour, Ken's legs started to feel tired.",
+   "ja": "1時間後、ケンの足は、疲れてきました。",
+   "note": "after an hour = 1時間後に。tired = 疲れた。"
+  }
+ ]
+}

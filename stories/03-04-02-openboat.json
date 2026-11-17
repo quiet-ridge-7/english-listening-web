@@ -1,0 +1,38 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 2,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "Crane was among the last to leave.",
+   "ja": "クレインは、最後のほうに、船を離れた一人でした。",
+   "note": "among the last = 最後のほうの一人。"
+  },
+  {
+   "text": "There were three others with him: the ship's captain, the cook, and a sailor.",
+   "ja": "彼と一緒に、あと3人いました。船長と、料理人と、船員です。",
+   "note": "the others = ほかの人たち。cook = 料理人。sailor = 船員。コロン(:)の後ろが、その三人の中身。"
+  },
+  {
+   "text": "These four men climbed into the only remaining lifeboat.",
+   "ja": "この4人の男は、たった1つ残っていた、救命ボートに、乗り込みました。",
+   "note": "climb into ~ = ~に乗り込む。remaining = 残っている。"
+  },
+  {
+   "text": "The boat was so small that no one believed it could stay afloat for very long.",
+   "ja": "ボートは、とても小さかったので、長く浮いていられるとは、だれも思いませんでした。",
+   "note": "so ~ that ... = とても~なので...。stay afloat = 浮いていられる。"
+  },
+  {
+   "text": "None of the four men thought he would ever reach the shore.",
+   "ja": "4人のうち、岸にたどり着けると思った者は、だれもいませんでした。",
+   "note": "None of ~ = ~のだれも~ない。reach the shore = 岸にたどり着く。"
+  },
+  {
+   "text": "But the men fought the seas bravely, with all their strength.",
+   "ja": "しかし、男たちは、全力で、勇敢に、海と戦いました。",
+   "note": "fought は、fight(戦う)の過去形。bravely = 勇敢に。strength = 力。"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 3,
+ "section": 5,
+ "name": "bakery",
+ "sentences": [
+  {
+   "text": "Soon more and more customers arrived, and the line reached the door.",
+   "ja": "すぐに、ますます多くのお客さんが、来て、列は、入り口まで、届きました。",
+   "note": "arrive = 到着する。"
+  },
+  {
+   "text": "Sara was so busy talking and selling bread that she forgot the timer.",
+   "ja": "サラは、話したり、パンを売ったりするのに、とても忙しくて、タイマーを、忘れてしまいました。",
+   "note": "so ~ that ... = とても~なので...。"
+  },
+  {
+   "text": "Suddenly she smelled smoke, and her heart began to beat very fast.",
+   "ja": "突然、彼女は、けむりの、においに気づき、心臓が、とても速く、打ち始めました。",
+   "note": "heart = 心臓。beat = 打つ。"
+  },
+  {
+   "text": "“Oh no, the rolls are still in the oven!” she cried.",
+   "ja": "「大変、ロールパンが、まだ、オーブンの中!」と、彼女は、叫びました。",
+   "note": "still = まだ。"
+  },
+  {
+   "text": "She ran to the oven and pulled the door open.",
+   "ja": "彼女は、オーブンに走って、扉を、引いて開けました。",
+   "note": "pull open = 引いて開ける。"
+  }
+ ]
+}

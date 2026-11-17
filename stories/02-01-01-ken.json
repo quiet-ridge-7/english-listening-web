@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 1,
+ "section": 1,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "Ken woke up very early on Saturday morning.",
+   "ja": "ケンは、土曜日の朝、とても早く起きました。",
+   "note": "woke up は、wake up の過去形。on Saturday morning = 土曜日の朝に。"
+  },
+  {
+   "text": "He packed a small bag and checked the weather.",
+   "ja": "彼は、小さなかばんに荷物を詰めて、天気を確かめました。",
+   "note": "packed、checked は、過去形(ed)。weather = 天気。"
+  },
+  {
+   "text": "He put water and a sandwich in the bag.",
+   "ja": "彼は、水とサンドイッチを、かばんに入れました。",
+   "note": "put は、現在形と過去形が、同じ形。"
+  },
+  {
+   "text": "His friend Mia called him at six o'clock.",
+   "ja": "友だちのミアが、6時に、彼に電話をかけました。",
+   "note": "at six o'clock = 6時に。"
+  },
+  {
+   "text": "“Are you ready to go?” she asked.",
+   "ja": "「出かける準備はできた?」と、彼女は聞きました。",
+   "note": "ready to go = 出かける準備ができた。asked = 尋ねた(過去形)。"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 16,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "“No,” said the reporter slowly, “I don't see anything.”",
+   "ja": "「いいえ」と、記者は、ゆっくり、言いました。「何も、見えません」",
+   "note": "don't see anything = 何も見えない。slowly = ゆっくり。"
+  },
+  {
+   "text": "“Look again,” said the captain.",
+   "ja": "「もう一度、見ろ」と、船長は、言いました。",
+   "note": "Look again = もう一度見ろ。"
+  },
+  {
+   "text": "He pointed.",
+   "ja": "彼は、指さしました。",
+   "note": "point = 指さす。"
+  },
+  {
+   "text": "“It's exactly in that direction.”",
+   "ja": "「まさに、あの方向だ」",
+   "note": "exactly = まさに。direction = 方向。"
+  },
+  {
+   "text": "This time the reporter saw a small thing on the edge of the moving horizon.",
+   "ja": "今度は、記者は、動いている水平線の端に、小さな物を、見つけました。",
+   "note": "edge = 端。horizon = 水平線。"
+  },
+  {
+   "text": "It was exactly like the point of a pin.",
+   "ja": "それは、まるで、ピンの先のようでした。",
+   "note": "the point of a pin = ピンの先。"
+  },
+  {
+   "text": "“Think we'll make it, captain?” he asked.",
+   "ja": "「たどり着けると、思いますか、船長?」と、彼は聞きました。",
+   "note": "make it = うまくたどり着く。"
+  },
+  {
+   "text": "“If this wind holds and the boat doesn't flood, we can't do much else,” said the captain.",
+   "ja": "「この風が続いて、ボートに水が入らなければ、ほかに、できることは、あまりない」と、船長は、言いました。",
+   "note": "If this wind holds = この風が続けば。can't do much else = ほかにできることは多くない。"
+  }
+ ]
+}

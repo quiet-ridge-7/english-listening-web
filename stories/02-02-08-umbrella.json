@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 2,
+ "section": 8,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "Leo held it tightly and said thank you.",
+   "ja": "レオは、それを、しっかり持って、ありがとうと、言いました。",
+   "note": "held は、hold の過去形。tightly = しっかりと。"
+  },
+  {
+   "text": "His father made her a cup of hot coffee.",
+   "ja": "彼の父親は、彼女に、熱いコーヒーを、1杯、いれました。",
+   "note": "a cup of ~ = 1杯の~。"
+  },
+  {
+   "text": "She drank it slowly, and it was warm and sweet.",
+   "ja": "彼女は、それを、ゆっくり飲みました。それは、あたたかくて、甘かったです。",
+   "note": "drank は、drink の過去形。"
+  },
+  {
+   "text": "When she left, the rain was soft and light.",
+   "ja": "彼女が出る時には、雨は、弱く、軽くなっていました。",
+   "note": "When ~ = ~した時。light = 軽い、弱い。"
+  },
+  {
+   "text": "She arrived at her meeting at five to nine.",
+   "ja": "彼女は、9時5分前に、会議に着きました。",
+   "note": "five to nine = 9時5分前。"
+  }
+ ]
+}

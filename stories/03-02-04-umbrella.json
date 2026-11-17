@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 2,
+ "section": 4,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "A small tag hung from the handle, and it had a name on it.",
+   "ja": "持ち手には、小さな札が、ぶら下がっていて、名前が、書いてありました。",
+   "note": "hung は、hang の過去形。"
+  },
+  {
+   "text": "The tag said, “Leo, Blue Door Cafe,” in careful blue letters.",
+   "ja": "札には、ていねいな青い文字で、「レオ、ブルー・ドア・カフェ」と、書いてありました。",
+   "note": "letters = 文字。careful = ていねいな。"
+  },
+  {
+   "text": "Mina wondered whether Leo had forgotten it on the bench or lost it.",
+   "ja": "ミナは、レオが、ベンチに置き忘れたのか、それとも、なくしたのか、と考えました。",
+   "note": "whether A or B = AかBか。had forgotten = 忘れていた。"
+  },
+  {
+   "text": "She knew that she needed an umbrella, but it was not hers.",
+   "ja": "彼女は、傘が必要だと、わかっていましたが、これは、彼女の物では、ありませんでした。",
+   "note": "hers = 彼女の物。"
+  },
+  {
+   "text": "After thinking for a moment, she decided to look for the cafe.",
+   "ja": "しばらく考えた後、彼女は、そのカフェを、探すことに、決めました。",
+   "note": "decide to ~ = ~することに決める。look for ~ = ~を探す。"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 2,
+ "section": 3,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "While Mina was sitting on the wet bench, she noticed something red.",
+   "ja": "ミナが、ぬれたベンチに座っていると、何か赤い物に、気づきました。",
+   "note": "notice = 気づく。something red = 赤い物。"
+  },
+  {
+   "text": "A large umbrella was lying next to her, but nobody was around.",
+   "ja": "大きな傘が、彼女の、となりに置いてありましたが、まわりには、だれもいませんでした。",
+   "note": "around = 近くに。"
+  },
+  {
+   "text": "She looked up and down the street to find its owner.",
+   "ja": "彼女は、持ち主を探して、通りを、あちこち、見回しました。",
+   "note": "up and down = あちこち。owner = 持ち主。"
+  },
+  {
+   "text": "Since no one answered when she called out, she picked it up carefully.",
+   "ja": "声をかけても、だれも答えなかったので、彼女は、傘を、注意深く、拾い上げました。",
+   "note": "Since = ~なので。call out = 声をかける。"
+  },
+  {
+   "text": "To her surprise, the umbrella was big enough for two people and still dry.",
+   "ja": "驚いたことに、その傘は、二人が入れるほど大きく、しかも、まだ、乾いていました。",
+   "note": "To her surprise = 驚いたことに。~ enough for ... = ...に十分な~。"
+  }
+ ]
+}

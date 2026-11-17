@@ -1,0 +1,43 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 7,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "He lay in the front of the small boat.",
+   "ja": "彼は、小さなボートの、前のほうに、横になっていました。",
+   "note": "lay は、lie(横になる)の過去形。in the front = 前の方に。"
+  },
+  {
+   "text": "His arm and leg were hurt when the ship sank.",
+   "ja": "船が沈んだ時に、彼の腕と足は、けがをしました。",
+   "note": "hurt = けがをした。"
+  },
+  {
+   "text": "The captain's face was sad.",
+   "ja": "船長の顔は、悲しそうでした。",
+   "note": "sad = 悲しそうな。"
+  },
+  {
+   "text": "He had lost his ship and many of his sailors.",
+   "ja": "彼は、自分の船と、たくさんの部下を、失ったのです。",
+   "note": "had lost = 失っていた。"
+  },
+  {
+   "text": "But he looked carefully ahead, and he told Billie when to turn the boat.",
+   "ja": "それでも、彼は、注意深く、前を見て、いつボートの向きを変えるかを、ビリーに伝えました。",
+   "note": "ahead = 前方。told Billie when to turn = いつ向きを変えるかを、ビリーに伝えた。"
+  },
+  {
+   "text": "“Keep her a little more south, Billie,” he said.",
+   "ja": "「もう少し、南へ向けろ、ビリー」と、彼は言いました。",
+   "note": "Keep her ~ = (船を)~のまま保て。船は、her(彼女)と呼ぶことが多い。south = 南。"
+  },
+  {
+   "text": "“A little more south, sir,” the sailor repeated.",
+   "ja": "「もう少し、南ですね、船長」と、船員は、繰り返しました。",
+   "note": "repeat = 繰り返す。sir = 目上の人への呼びかけ。"
+  }
+ ]
+}

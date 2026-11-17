@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 1,
+ "section": 4,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "He drank some water and wiped his face.",
+   "ja": "彼は、水を飲んで、顔をふきました。",
+   "note": "drank は、drink の過去形。wipe = ふく。"
+  },
+  {
+   "text": "“Let's rest on that big rock,” Mia said.",
+   "ja": "「あの大きな岩で、休もう」と、ミアは言いました。",
+   "note": "that = あの。"
+  },
+  {
+   "text": "They sat down and listened to a small bird.",
+   "ja": "二人は、座って、小さな鳥の声を、聞きました。",
+   "note": "listen to ~ = ~を(耳を傾けて)聞く。"
+  },
+  {
+   "text": "Ken ate half of his sandwich there.",
+   "ja": "ケンは、そこで、サンドイッチを半分、食べました。",
+   "note": "ate は、eat の過去形。half = 半分。"
+  },
+  {
+   "text": "He felt better and stood up again.",
+   "ja": "彼は、元気になって、また、立ち上がりました。",
+   "note": "better = より良い。stood up = 立ち上がった。"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 2,
+ "section": 3,
+ "name": "umbrella",
+ "sentences": [
+  {
+   "text": "Mina sat down on the wet bench.",
+   "ja": "ミナは、ぬれたベンチに、座りました。",
+   "note": "sat down = 座った。sit の過去形。"
+  },
+  {
+   "text": "A red umbrella was lying next to her.",
+   "ja": "赤い傘が、彼女の、となりに、置いてありました。",
+   "note": "was lying = 置かれていた。lie(横たわる)の進行形。"
+  },
+  {
+   "text": "Nobody else was waiting at the bus stop.",
+   "ja": "バス停には、ほかに、だれも、待っていませんでした。",
+   "note": "else = ほかの。waiting = 待っている。"
+  },
+  {
+   "text": "She looked around, but she saw no one.",
+   "ja": "彼女は、見回しましたが、だれもいませんでした。",
+   "note": "no one = 誰も~ない。but = しかし。"
+  },
+  {
+   "text": "She picked up the umbrella carefully.",
+   "ja": "彼女は、傘を、注意深く、拾い上げました。",
+   "note": "carefully = 注意深く。"
+  }
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "level": 2,
+ "story": 1,
+ "section": 6,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "She took out a small map from her pocket.",
+   "ja": "彼女は、ポケットから、小さな地図を、取り出しました。",
+   "note": "pocket = ポケット。"
+  },
+  {
+   "text": "“I think we need to turn left,” she said.",
+   "ja": "「左に曲がらなきゃいけないと思う」と、彼女は言いました。",
+   "note": "turn left = 左に曲がる。need to ~ = ~する必要がある。"
+  },
+  {
+   "text": "They walked slowly and watched every step.",
+   "ja": "二人は、ゆっくり歩いて、一歩一歩、気をつけました。",
+   "note": "watch every step = 一歩一歩に気をつける。"
+  },
+  {
+   "text": "Ken held the strap of Mia's bag.",
+   "ja": "ケンは、ミアのかばんの、ひもを、つかみました。",
+   "note": "held は、hold の過去形。strap = ひも、ベルト。"
+  },
+  {
+   "text": "After twenty minutes, they finally found a wooden sign.",
+   "ja": "20分後、二人は、ついに、木の看板を、見つけました。",
+   "note": "finally = ついに。wooden = 木でできた。"
+  }
+ ]
+}

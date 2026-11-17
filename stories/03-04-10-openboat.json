@@ -1,0 +1,28 @@
+{
+ "level": 3,
+ "story": 4,
+ "section": 10,
+ "name": "openboat",
+ "sentences": [
+  {
+   "text": "And the white foam on the waves looked like falling snow.",
+   "ja": "そして、波の白い泡は、降る雪のように、見えました。",
+   "note": "foam = 泡。falling snow = 降る雪。"
+  },
+  {
+   "text": "As the lifeboat bounced from the top of each wave, the wind tore through the hair of the men.",
+   "ja": "救命ボートが、波の頂上から跳ね上がるたびに、風が、男たちの髪を、吹き抜けました。",
+   "note": "tore through ~ = ~を吹き抜けた。"
+  },
+  {
+   "text": "As the boat dropped down again the water fell just past them.",
+   "ja": "ボートが、また下に落ちると、水は、彼らのすぐそばを、落ちていきました。",
+   "note": "dropped down = 落ちた。just past ~ = ~のすぐそばを通り過ぎて。"
+  },
+  {
+   "text": "The top of each wave was a hill, from which the men could see, for a brief period, a wide area of shining sea.",
+   "ja": "どの波の頂上も、丘のようで、そこから、男たちは、ほんの少しの間、光る海の、広い範囲を、見ることができました。",
+   "note": "brief = 短い。period = 期間。wide area = 広い範囲。"
+  }
+ ]
+}

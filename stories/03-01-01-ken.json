@@ -1,0 +1,33 @@
+{
+ "level": 3,
+ "story": 1,
+ "section": 1,
+ "name": "ken",
+ "sentences": [
+  {
+   "text": "Ken woke up before the sun came up because he was excited.",
+   "ja": "ケンは、わくわくしていたので、日の出の前に、起きました。",
+   "note": "before = ~より前に。because = ~なので(理由)。excited = わくわくした。"
+  },
+  {
+   "text": "He checked the weather forecast, which said it would be cloudy.",
+   "ja": "彼は、天気予報を確かめました。それは、くもりになるだろう、と言っていました。",
+   "note": "which said ~ = それは~と言っていた。would be = ~になるだろう(過去から見た未来)。cloudy = くもり。"
+  },
+  {
+   "text": "After packing water and a sandwich, he closed his small bag.",
+   "ja": "水とサンドイッチを詰めた後、彼は、小さなかばんを閉じました。",
+   "note": "After ~ing = ~した後で。closed = 閉めた。"
+  },
+  {
+   "text": "Mia called him and asked if he was ready to leave.",
+   "ja": "ミアは、彼に電話をして、出かける準備はできたか、と聞きました。",
+   "note": "asked if ~ = ~かどうか尋ねた。"
+  },
+  {
+   "text": "“I should be at the bus stop in ten minutes,” Ken answered.",
+   "ja": "「10分後には、バス停に着くはずだよ」と、ケンは答えました。",
+   "note": "should = ~するはず、~すべき。in ten minutes = 10分後には。"
+  }
+ ]
+}
