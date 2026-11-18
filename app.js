@@ -57,6 +57,7 @@ const state = {
   server: false,          // 記録を、ファイル(サーバ)にも、保存できるか(serve.py につながっている時だけ true)
   serverOk: true,         // 最後のファイルへの保存が、成功したか
   pushChain: Promise.resolve(),   // ファイルへの保存を、順番に、行うための、列
+  audio: { files: {}, cache: new Map(), el: null },   // 音声ファイル: 目次(audio/manifest.json の files)、読み込み済み(名前 → blob のアドレス)、再生に使う部品(使い回す)
   sync: { config: null, status: "off", message: "", at: null, running: false, again: false, timer: null, lastTry: 0 },   // 記録の同期(GitHub)
 };
 
@@ -330,7 +331,9 @@ function voiceCandidates() {
 
 function updateVoiceNote() {
   const note = $("voice-note");
-  if (!hasSpeech()) {
+  if (Object.keys(state.audio.files).length > 0) {   // 録音した音声ファイルを使えるので、声の心配は、いらない
+    note.hidden = true;
+  } else if (!hasSpeech()) {
     note.textContent = "このブラウザでは、音声の読み上げが、使えません。";
     note.hidden = false;
   } else if (voiceCandidates().length === 0) {
@@ -391,7 +394,79 @@ function renderStorageStatus() {
 
 function cancelSpeech() {
   state.runId++;
+  if (state.audio.el) { try { state.audio.el.pause(); } catch { /* 止められなくても、よい */ } }
   if (hasSpeech()) window.speechSynthesis.cancel();
+}
+
+// ---- 録音した音声ファイル(audio/)の、再生 ----
+// 目次を読む(無ければ、音声ファイルは、使わない)
+async function loadAudioManifest() {
+  try {
+    const r = await fetchWithTimeout("audio/manifest.json", {}, 3000);
+    if (!r.ok) return;
+    const m = await r.json();
+    if (m && m.files && typeof m.files === "object") state.audio.files = m.files;
+  } catch { /* 音声ファイルは、使わない(読み上げに、なる) */ }
+}
+
+// 今回の文の音声を、先に、全部、読み込んでおく(読み込めない文は、読み上げに、なる)。読み込み済みは、使い回す。
+async function prepareAudio(sentences) {
+  const cache = state.audio.cache;
+  await Promise.all(sentences.map(async (s) => {
+    if (!s.audio || !state.audio.files[s.audio] || cache.has(s.audio)) return;
+    try {
+      const r = await fetchWithTimeout("audio/" + s.audio, {}, 8000);
+      if (!r.ok) return;
+      cache.set(s.audio, URL.createObjectURL(await r.blob()));
+    } catch { /* この文は、読み上げに、なる */ }
+  }));
+  while (cache.size > 80) {   // 古い物から、捨てる
+    const oldest = cache.keys().next().value;
+    URL.revokeObjectURL(cache.get(oldest));
+    cache.delete(oldest);
+  }
+}
+
+function audioElement() {
+  if (!state.audio.el) {
+    const el = new Audio();
+    el.preload = "auto";
+    el.preservesPitch = true;
+    el.webkitPreservesPitch = true;
+    state.audio.el = el;   // iPhone では、最初に、画面を触った時に、鳴らした部品でないと、あとから、鳴らせない。使い回す
+  }
+  return state.audio.el;
+}
+
+// 音声ファイルを、再生する。終わったら onDone。鳴らせない時(エラー / 始まらない)は onFail(読み上げに、切り替える)。
+function playAudio(url, rate, onFail, onDone) {
+  const run = ++state.runId;
+  const el = audioElement();
+  let done = false;
+  let timer = null;
+  const detach = () => { clearTimeout(timer); el.onended = null; el.onerror = null; el.onplaying = null; };
+  const finish = () => { if (done || run !== state.runId) return; done = true; detach(); setVoiceProblem(""); onDone(); };
+  const fail = () => { if (done || run !== state.runId) return; done = true; detach(); try { el.pause(); } catch { /* よい */ } onFail(); };
+  el.onended = finish;
+  el.onerror = fail;
+  el.onplaying = () => {
+    clearTimeout(timer);   // 鳴り始めた。終わりの通知が来ない時のための、見張り
+    const sec = Number.isFinite(el.duration) ? el.duration : 10;
+    timer = setTimeout(() => { if (!done && run === state.runId) { try { el.pause(); } catch { /* よい */ } finish(); } }, (sec / Math.max(rate, 0.3)) * 1000 + END_GRACE_MS);
+  };
+  el.src = url;
+  el.defaultPlaybackRate = rate;
+  el.playbackRate = rate;
+  timer = setTimeout(fail, START_TIMEOUT_MS);   // 始まらない
+  const p = el.play();
+  if (p && typeof p.catch === "function") p.catch(fail);
+}
+
+// 1文を、読む: 録音した音声が、あれば、それ。無い / 鳴らせない時は、読み上げ。
+function speakSentence(sentence, rate, onDone) {
+  const url = sentence.audio ? state.audio.cache.get(sentence.audio) : null;
+  if (url) playAudio(url, rate, () => speak(sentence.text, rate, onDone), onDone);
+  else speak(sentence.text, rate, onDone);
 }
 
 // 1文を読む。読み終わったら onDone を呼ぶ(途中で止められた時は、呼ばない)。
@@ -662,6 +737,7 @@ async function startSession() {
     const loaded = await Promise.all(plan.sections.map((sec) => loadSection(sec.file)));
     state.story = story;
     state.session = assembleSession(plan, loaded);
+    await prepareAudio(state.session.sentences);
     state.index = 0;
     state.judged = 0;
     state.stops = new Set();
@@ -713,7 +789,7 @@ function playFrom(index) {
   }
   state.index = index;
   setPhase("speaking");
-  speak(s.sentences[index].text, s.rate, () => setPhase("judging"));
+  speakSentence(s.sentences[index], s.rate, () => setPhase("judging"));
 }
 
 function onUnderstood() {
@@ -746,12 +822,12 @@ function replay(factor) {
   if (state.mode !== "playing" || state.phase === "ready") return;
   cancelSpeech();
   const rate = Math.max(MIN_RATE, state.session.rate * factor);
-  const text = state.session.sentences[state.index].text;
+  const sentence = state.session.sentences[state.index];
   if (state.phase === "revealed") {
-    speak(text, rate, () => {});          // 解説を見ながら、聞き直す(画面は、そのまま)
+    speakSentence(sentence, rate, () => {});          // 解説を見ながら、聞き直す(画面は、そのまま)
   } else {
     setPhase("speaking");
-    speak(text, rate, () => setPhase("judging"));
+    speakSentence(sentence, rate, () => setPhase("judging"));
   }
 }
 
@@ -895,6 +971,7 @@ if ("serviceWorker" in navigator && window.isSecureContext && document.querySele
 (async function main() {
   state.storage = checkStorage();
   await Promise.race([syncWithServer(), new Promise((resolve) => setTimeout(resolve, 4000))]);
+  await loadAudioManifest();
   state.sync.config = loadSyncConfig();
   renderSync();
   if (state.sync.config) await Promise.race([syncNow(), new Promise((resolve) => setTimeout(resolve, 4000))]);   // 開いた時に、同期(4秒で、待つのをやめる)

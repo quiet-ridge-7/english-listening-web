@@ -68,7 +68,7 @@ try {
   ws.onmessage = (m) => {
     const d = JSON.parse(m.data);
     if (d.id && pending.has(d.id)) { pending.get(d.id)(d); pending.delete(d.id); return; }
-    if (d.method === "Network.requestWillBeSent") { try { hosts.add(new URL(d.params.request.url).host); } catch {} }
+    if (d.method === "Network.requestWillBeSent") { try { const u = new URL(d.params.request.url); if (u.protocol === "http:" || u.protocol === "https:") hosts.add(u.host); } catch {} }   // blob:(ブラウザの中の一時的なアドレス)や data: は、通信では、ない
     if (d.method === "Runtime.exceptionThrown") {
       const ex = d.params.exceptionDetails;
       pageErrors.push((ex.exception && ex.exception.description ? ex.exception.description : ex.text).split("\n")[0]);
@@ -91,6 +91,9 @@ try {
   await send("Network.enable");
   await send("Page.addScriptToEvaluateOnNewDocument", {
     source: `
+      window.__audioPlays = [];
+      HTMLMediaElement.prototype.play = function () { window.__audioPlays.push({ src: this.src, rate: this.playbackRate }); const el = this; setTimeout(() => el.dispatchEvent(new Event("playing")), 1); setTimeout(() => el.dispatchEvent(new Event("ended")), 6); return Promise.resolve(); };
+      HTMLMediaElement.prototype.pause = function () {};
       window.__spoken = [];
       class FakeUtterance { constructor(t) { this.text = t; } }
       let current = null;
@@ -110,9 +113,10 @@ try {
 
   // ---- 1. 最初の読み込み: sw.js が、全部のファイルを、覚える ----
   await load();
-  const FILES = JSON.parse(fs.readFileSync(path.join(ROOT, "sw.js"), "utf8").match(/const FILES = (\[[\s\S]*?\]);/)[1]);
+  const swText = fs.readFileSync(path.join(ROOT, "sw.js"), "utf8");
+  const FILES = [...JSON.parse(swText.match(/const FILES = (\[[\s\S]*?\]);/)[1]), ...JSON.parse(swText.match(/const AUDIO = (\[[^\n]*\]);/)[1])];   // 画面・物語と、録音した音声
   await waitFor(`navigator.serviceWorker.ready.then(() => true)`, "sw.js の準備");
-  await waitFor(`caches.keys().then((ks) => ks.length > 0 && caches.open(ks[0]).then((c) => c.keys()).then((r) => r.length >= ${FILES.length}))`, "ファイルを、覚えるのを、待つ", 20000);
+  await waitFor(`caches.keys().then((ks) => ks.length > 0 && caches.open(ks[0]).then((c) => c.keys()).then((r) => r.length >= ${FILES.length}))`, "ファイルを、覚えるのを、待つ", 60000);
   const cacheInfo = await ev(`caches.keys().then(async (ks) => ({ names: ks, count: (await (await caches.open(ks[0])).keys()).length }))`);
   check("W1 sw.js が、動いている。覚えた箱は、1つ。覚えたファイルの数は、一覧(" + FILES.length + ")と、同じ", cacheInfo.names.length === 1 && /^english-listening-web-[0-9a-f]{10}$/.test(cacheInfo.names[0]) && cacheInfo.count >= FILES.length, JSON.stringify(cacheInfo));
   const manifestLink = await ev(`document.querySelector('link[rel="manifest"]').getAttribute("href")`);
@@ -133,9 +137,9 @@ try {
   await ev(`document.getElementById("btn-start").click(); true`);
   await waitFor(`!document.getElementById("screen-play").hidden`, "圏外での、聞く画面(節のファイルは、覚えた物から)");
   await ev(`document.getElementById("btn-go").click(); true`);
-  await waitFor(`window.__spoken.length >= 1`, "圏外での、1文目の読み上げ");
-  const first = await ev(`window.__spoken[0].text`);
-  check("W5 圏外でも、練習できる(1文目が、読まれる)。サーバには、1回も、つながっていない", typeof first === "string" && first.length > 3 && served.length === servedBefore, first + " " + (served.length - servedBefore));
+  await waitFor(`window.__audioPlays.length >= 1 || window.__spoken.length >= 1`, "圏外での、1文目");
+  const play = await ev(`window.__audioPlays[0] || null`);
+  check("W5 圏外でも、練習できる(1文目が、録音した音声で、再生される。読み上げは、使わない)。サーバには、1回も、つながっていない", !!play && /^blob:/.test(play.src) && (await ev(`window.__spoken.length`)) === 0 && served.length === servedBefore, JSON.stringify(play) + " " + (served.length - servedBefore));
   await ev(`document.getElementById("btn-quit-play").click(); true`);
   check("W5b ページのエラーは、出ていない", pageErrors.length === 0, pageErrors.join(" | "));
 

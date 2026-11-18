@@ -10,7 +10,7 @@
 <meta name="theme-color" content="#14161a">
 <meta name="apple-mobile-web-app-title" content="リスニング">
 <!-- 通信は、この画面の、置き場所と、GitHub の API(記録の同期)だけに、限る -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self' https://api.github.com; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; media-src 'self' blob:; connect-src 'self' https://api.github.com; base-uri 'none'; form-action 'none'; object-src 'none'">
 <title>英語リスニング練習</title>
 <style>
   :root {
@@ -92,8 +92,8 @@
     <summary class="sub">このアプリについて</summary>
     <ul>
       <li>練習の記録は、<b>この端末の中</b>(ブラウザの保存場所)にだけ、保存します。作者には、届きません。「同期」を設定すると、あなたの GitHub の、非公開リポジトリにも、保存します。</li>
-      <li>読み上げは、端末の音声合成の声です。声や、答えを、どこにも、送りません。公開の置き場所(GitHub Pages)の、アクセスの記録(IP アドレスなど)は、GitHub 側に、残ることがあります。</li>
-      <li>声は、端末によって、違います。音が出ない時は、音量と、マナーモード(消音)を、確かめてください。iPhone は、画面を触るまで、声が、鳴りません。</li>
+      <li>声は、あらかじめ録音した音声ファイルです(Piper の英語の声「joe」。CC0)。音声が無い文や、再生できない時は、端末の音声合成を使います。声や、答えを、どこにも、送りません。公開の置き場所(GitHub Pages)の、アクセスの記録(IP アドレスなど)は、GitHub 側に、残ることがあります。</li>
+      <li>音が出ない時は、音量と、マナーモード(消音)を、確かめてください。iPhone は、画面を触るまで、音が、鳴りません。録音した音声が使えない時は、端末の音声合成になり、端末によって、声が違います。</li>
       <li>iPhone では、Safari で開いた時と、ホーム画面から開いた時で、記録の保存場所が、別です。どちらか一方で、使い続けてください(同期を使えば、そろえられます)。</li>
       <li>物語は、自作の 9 本と、VOA Learning English「The Open Boat」です(出典は、その物語の画面に、出ます)。</li>
     </ul>

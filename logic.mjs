@@ -154,15 +154,21 @@ export function planSession(catalog, position, { sectionCount = DEFAULT_SECTION_
 
 // 読み込んだ節のデータ(plan.sections と、同じ順番)から、読み上げる文の列を、組み立てる。
 //   各文: { text, ja, note, sectionCode, number(1から) }
+// 1文の、音声ファイルの名前: 節のファイル名(.json を除く)- 文の番号(1から、2けた).mp3  例: 01-01-01-ken-01.mp3
+//   make_audio.py が、同じ名前で、audio/ に、作る。
+export function audioName(sectionFile, index) {
+  return String(sectionFile).replace(/\.json$/, "") + "-" + pad2(index + 1) + ".mp3";
+}
+
 export function assembleSession(plan, loaded) {
   const sentences = [];
   plan.sections.forEach((sec, k) => {
     const data = loaded[k];
     const list = data && Array.isArray(data.sentences) ? data.sentences : null;
     if (!list) throw new Error("節のデータに、文が、ありません: " + sec.code);
-    for (const s of list) {
-      sentences.push({ text: s.text, ja: s.ja, note: s.note, sectionCode: sec.code, number: sentences.length + 1 });
-    }
+    list.forEach((s, j) => {
+      sentences.push({ text: s.text, ja: s.ja, note: s.note, sectionCode: sec.code, number: sentences.length + 1, audio: audioName(sec.file, j) });
+    });
   });
   return { ...plan, sentences };
 }

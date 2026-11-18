@@ -1,12 +1,14 @@
 // logic_test.mjs — logic.mjs と、stories/ フォルダ(物語のデータ)の、テスト。
 //   実行: node logic_test.mjs
 import assert from "node:assert/strict";
+import fs from "node:fs";
+import { checkAudio } from "./check_audio.mjs";
 import {
   READING_RATE, SPEEDS, isSpeed, LEVEL_BOUNDS, LEGACY_STORY_NAMES, LIMITS, DEFAULT_SECTION_COUNT, LEGACY_TARGET_SECONDS,
   countWords, estimateSeconds, formatSeconds, todayString, averageWords, detectLevel,
   pad2, sectionCode, sectionFileName, SECTION_FILE_PATTERN, parseSectionFileName,
   levelsOf, maxLevelOf, storiesOfLevel, findStory, flattenSections, sectionSeconds,
-  planSession, assembleSession, rangeLabel, rangeKey,
+  planSession, assembleSession, audioName, rangeLabel, rangeKey,
   resolvePosition, nextSectionPosition, nextBlockPosition, positionAfterSession,
   createProgress, readProgress, parseProgress, hasProgressData, chooseSource, recordSession, groupHistory, mergeProgress, sameProgress,
   GOOD_RATE, sectionResults, updateSectionStats, isGoodSection,
@@ -459,6 +461,22 @@ assert.equal(todayString(new Date(2026, 10, 5)), "2026-11-05");   // 月は、0 
   // sameProgress: キーの順番は、問わない
   assert.ok(sameProgress({ x: 1, y: { p: 1, q: 2 } }, { y: { q: 2, p: 1 }, x: 1 }));
   assert.ok(!sameProgress({ x: 1 }, { x: 2 }));
+}
+
+// ---- 録音した音声ファイル(audio/): 名前と、いまの物語との一致 ----
+{
+  assert.equal(audioName("01-01-01-ken.json", 0), "01-01-01-ken-01.mp3");
+  assert.equal(audioName("03-04-22-openboat.json", 9), "03-04-22-openboat-10.mp3");
+  const plan = planSession(CATALOG, { level: 1, storyName: "ken", sceneIndex: 1 }, { sectionCount: 2 });
+  const loaded = plan.sections.map((sec) => ({ sentences: Array.from({ length: sec.sentences }, (_, i) => ({ text: "t" + i, ja: "", note: "" })) }));
+  const s = assembleSession(plan, loaded);
+  assert.deepEqual(s.sentences.map((x) => x.audio).slice(0, 2), ["01-01-02-ken-01.mp3", "01-01-02-ken-02.mp3"], "各文に、音声ファイルの名前が、付く");
+  assert.equal(s.sentences[plan.sections[0].sentences].audio, "01-01-03-ken-01.mp3", "2つ目の節は、その節の1文目から数える(通し番号では、ない)");
+  if (fs.existsSync(new URL("./audio/manifest.json", import.meta.url))) {
+    const r = checkAudio();
+    assert.equal(r.total, 489);
+    assert.deepEqual([r.missing.length, r.stale.length, r.orphan.length, r.broken.length], [0, 0, 0, 0], "音声が、いまの物語と、合っていない: " + JSON.stringify(r).slice(0, 300));
+  }
 }
 
 // ---- 記録 ----

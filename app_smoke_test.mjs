@@ -119,10 +119,12 @@ try {
   const pending = new Map();
   const pageErrors = [];
   const storyRequests = [];   // 画面が、読み込んだ、stories/ のファイル名(目次と、節のファイル)
+  const audioRequests = [];   // 画面が、読み込もうとした、audio/ のファイル名
   ws.onmessage = (m) => {
     const d = JSON.parse(m.data);
     if (d.id && pending.has(d.id)) { pending.get(d.id)(d); pending.delete(d.id); return; }
     if (d.method === "Network.requestWillBeSent" && /\/stories\//.test(d.params.request.url)) storyRequests.push(d.params.request.url.split("/").pop());
+    if (d.method === "Network.requestWillBeSent" && /\/audio\//.test(d.params.request.url)) audioRequests.push(d.params.request.url.split("/").pop());
     if (d.method === "Runtime.exceptionThrown") {
       const ex = d.params.exceptionDetails;
       pageErrors.push((ex.exception && ex.exception.description ? ex.exception.description : ex.text).split("\n")[0]);
@@ -149,12 +151,24 @@ try {
   await send("Runtime.enable");
   await send("Page.enable");
   await send("Network.enable");
+  await send("Network.setBlockedURLs", { urls: ["*/audio/*"] });   // 音声ファイルは、既定では、使わない(読み上げで、試験する)。使う試験(AU)だけ、ふさぎを外す
   const setWidth = (width) => send("Emulation.setDeviceMetricsOverride", { width, height: 900, deviceScaleFactor: 1, mobile: false });
   await setWidth(1200);   // ふつうのパソコンの、広さ
 
   // 偽の speechSynthesis(5ミリ秒で「読み終わり」を通知する。cancel は、中断の通知を出す)
   await send("Page.addScriptToEvaluateOnNewDocument", {
     source: `
+      window.__audioPlays = [];
+      // 偽の音声再生: 再生の記録を、取って、1ミリ秒で「鳴り始め」、6ミリ秒で「終わり」を通知する(__audioFail = 再生できない / __audioHold = 終わらない)
+      HTMLMediaElement.prototype.play = function () {
+        window.__audioPlays.push({ src: this.src, rate: this.playbackRate });
+        if (window.__audioFail) return Promise.reject(new DOMException("blocked", "NotAllowedError"));
+        const el = this;
+        setTimeout(() => el.dispatchEvent(new Event("playing")), 1);
+        if (!window.__audioHold) setTimeout(() => el.dispatchEvent(new Event("ended")), 6);
+        return Promise.resolve();
+      };
+      HTMLMediaElement.prototype.pause = function () {};
       window.__spoken = [];
       window.__EL_GITHUB_API__ = "/__gh";
       class FakeUtterance { constructor(t) { this.text = t; } }
@@ -896,6 +910,65 @@ try {
     check("SY11 通信の守り: 外のサイトへは、つながらない。この画面の置き場所へは、つながる。許す送り先は、GitHub の API だけ", outside === "ふさがれた" && same === "ok" && /connect-src 'self' https:\/\/api\.github\.com;/.test(csp) && /script-src 'self';/.test(csp), outside + " " + same + " " + csp);
     check("SY12 ページのエラーは、出ていない", pageErrors.length === 0, pageErrors.join(" | "));
   }
+
+  // ---- AU. 録音した音声ファイル(audio/)で、読む。無い・鳴らせない文は、読み上げに、戻る ----
+  await send("Network.setBlockedURLs", { urls: [] });
+  await resetStorage();
+  await setProgress({ ...BASE, rate: 1.5 });
+  audioRequests.length = 0;
+  await load();
+  check("AU1 音声ファイルの目次(manifest.json)を、読む。声の心配のメモ(voice-note)は、出ない", audioRequests.includes("manifest.json") && (await ev(`document.getElementById("voice-note").hidden`)), JSON.stringify(audioRequests));
+  audioRequests.length = 0;
+  await click("btn-start");
+  await waitFor(`!document.getElementById("screen-play").hidden`, "聞く画面");
+  const wanted = FIRST.sentences.map((x, i) => "01-01-01-ken-0" + (i + 1) + ".mp3");
+  check("AU2 聞き始めに、今回の5文の音声ファイルだけを、読み込む(先に)", JSON.stringify([...audioRequests].sort()) === JSON.stringify(wanted), JSON.stringify(audioRequests));
+  const plays0 = await ev(`window.__audioPlays.length`);
+  const spoken0 = await spokenCount();
+  await click("btn-go");
+  await waitFor(`window.__audioPlays.length > ${plays0}`, "音声の再生");
+  const ap = await ev(`window.__audioPlays.at(-1)`);
+  check("AU3 スタートで、1文目の音声(blob)が、選んだ速さ(1.5倍)で、再生される。読み上げは、使わない", /^blob:/.test(ap.src) && ap.rate === 1.5 && (await spokenCount()) === spoken0, JSON.stringify(ap));
+  await waitJudging();
+  await click("btn-understood");
+  await waitFor(`window.__audioPlays.length > ${plays0 + 1}`, "2文目の音声");
+  await waitJudging();
+  const apCount = await ev(`window.__audioPlays.length`);
+  await click("btn-slow");
+  await waitFor(`window.__audioPlays.length > ${apCount}`, "ゆっくり");
+  check("AU4 「ゆっくり聞く」は、速さ × 0.75(1.5 × 0.75 = 1.125)で、同じ音声を、もう一度", Math.abs((await ev(`window.__audioPlays.at(-1).rate`)) - 1.125) < 1e-9 && (await ev(`window.__audioPlays.at(-1).src`)) === (await ev(`window.__audioPlays.at(-2).src`)), JSON.stringify(await ev(`window.__audioPlays.slice(-2)`)));
+  await waitJudging();
+  // 再生できない(__audioFail)→ 読み上げに、切り替わる
+  await ev(`window.__audioFail = true; true`);
+  const sp1 = await spokenCount();
+  await click("btn-repeat");
+  await waitFor(`window.__spoken.length > ${sp1}`, "読み上げへの切り替え");
+  check("AU5 音声が、鳴らせない時は、同じ文を、読み上げで、読む(画面は、止まらない)", (await lastSpoken()).text === first[1].text, JSON.stringify(await lastSpoken()));
+  await waitJudging();
+  await ev(`window.__audioFail = false; true`);
+  await finishAll();
+  check("AU6 最後まで、進める。おわりの画面になる", await visible("finish"));
+  await click("btn-cover");
+  // 一部の音声ファイルが、読み込めない(3文目)→ その文だけ、読み上げ
+  await send("Network.setBlockedURLs", { urls: ["*/01-01-01-ken-03.mp3"] });
+  await ev(`window.__audioPlays.length = 0; window.__spoken.length = 0; true`);
+  await setProgress({ ...BASE, rate: 1 });
+  await load();
+  await begin();
+  for (let i = 0; i < 5; i++) await understood();
+  await waitFor(`!document.getElementById("screen-finish").hidden`, "おわりの画面", 8000);
+  const plays = await ev(`window.__audioPlays.length`);
+  const spokenAfter = await ev(`window.__spoken.map((x) => x.text)`);
+  check("AU7 3文目の音声だけ、読み込めない時は、4文が音声、3文目だけ読み上げ", plays === 4 && JSON.stringify(spokenAfter) === JSON.stringify([first[2].text]), plays + " " + JSON.stringify(spokenAfter));
+  await click("btn-cover");
+  await send("Network.setBlockedURLs", { urls: ["*/audio/*"] });   // 音声が、無い時: これまでと、同じ(読み上げ)
+  await setProgress(BASE);
+  await load();
+  await begin();
+  await waitFor(`window.__spoken.length >= 1`, "読み上げ");
+  check("AU8 音声ファイルが、全部、使えない時は、すべて、読み上げ(音声の再生は、0)", (await ev(`window.__audioPlays.length`)) === 0 && (await lastSpoken()).text === first[0].text);
+  await click("btn-quit-play");
+  check("AU9 ページのエラーは、出ていない", pageErrors.length === 0, pageErrors.join(" | "));
 
   // ---- V. 声が黙った時の立て直し・記録の保存の表示 ----
   await resetStorage();
