@@ -102,6 +102,39 @@ document.getElementById("t-speak-voice").addEventListener("click", () => {
 });
 document.getElementById("t-speak-rate").addEventListener("click", () => speakTest("⑤ 速さ 0.8", "Hello. This is a test of the English voice.", { lang: "en-US", rate: 0.8 }));
 document.getElementById("t-speak-ja").addEventListener("click", () => speakTest("⑥ 日本語", "こんにちは。声の確認です。", { lang: "ja-JP" }));
+// ⑦⑧: 無音の音声ファイルを、流し続けると、iPhone の音の設定が、「再生」になり、消音でも、鳴ることがある。その時に、声が、出るかを、確かめる。
+function silentWav() {
+  const rate = 8000, n = rate;   // 1秒の無音
+  const buf = new ArrayBuffer(44 + n * 2);
+  const dv = new DataView(buf);
+  const w = (o, s) => { for (let i = 0; i < s.length; i++) dv.setUint8(o + i, s.charCodeAt(i)); };
+  w(0, "RIFF"); dv.setUint32(4, 36 + n * 2, true); w(8, "WAVE"); w(12, "fmt "); dv.setUint32(16, 16, true);
+  dv.setUint16(20, 1, true); dv.setUint16(22, 1, true); dv.setUint32(24, rate, true); dv.setUint32(28, rate * 2, true);
+  dv.setUint16(32, 2, true); dv.setUint16(34, 16, true); w(36, "data"); dv.setUint32(40, n * 2, true);
+  return new Blob([buf], { type: "audio/wav" });
+}
+let silent = null;
+function startSilent(start) {
+  if (!silent) { silent = new Audio(URL.createObjectURL(silentWav())); silent.loop = true; }
+  const p = silent.play();
+  p.then(() => log(ms(start) + "無音の音声ファイルを、流し始めた(play が、成功)")).catch((e) => log(ms(start) + "無音を流せない: " + e.name));
+  return p;
+}
+document.getElementById("t-silent-now").addEventListener("click", () => {
+  const start = t0();
+  log("【⑦ 無音を流しながら、すぐ】");
+  startSilent(start);
+  speakTest("⑦ 声", "Hello. This is a test of the English voice.", { lang: "en-US" });
+});
+document.getElementById("t-silent-later").addEventListener("click", () => {
+  const start = t0();
+  log("【⑧ 無音を流して、0.5秒後に】");
+  startSilent(start);
+  setTimeout(() => speakTest("⑧ 声", "Hello. This is a test of the English voice.", { lang: "en-US" }), 500);
+});
+document.getElementById("t-silent-stop").addEventListener("click", () => {
+  if (silent) { silent.pause(); log("無音の音声ファイルを、止めた"); } else log("無音の音声ファイルは、流していません");
+});
 document.getElementById("t-info").addEventListener("click", showInfo);
 document.getElementById("t-clear").addEventListener("click", () => { logEl.textContent = ""; });
 
